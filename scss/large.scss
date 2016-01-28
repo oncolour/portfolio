@@ -1,0 +1,35 @@
+// Large screens - min-width 1025px, large screens 
+@media only screen and (min-width: 64.063em) {
+    /* Nav */
+    nav[role=navigation] {
+        padding-top: 2rem;
+    }
+    nav[role=navigation] img {
+        opacity: 0.8;
+    }
+    nav[role=navigation] ul {
+        margin-top: 2rem;
+    }
+    nav[role=navigation] div ul li a {
+        color: #f6f6f6;
+        font-style: italic;
+        font-size: 1.2rem;
+        display: block;
+        text-align: center;
+        padding: 0.5rem 0;
+    }
+    /* Hero */
+    .hero {}
+    .hero .intro {
+        margin-top: 13vh;
+    }
+    .hero h1 {
+        font-size: 4rem;
+    }
+    .hero p {
+        font-size: 2rem;
+    }
+    .hero [role=button] {
+        margin-top: 1.5rem;
+    }
+}
