@@ -1,41 +1,92 @@
-<section id="portfolio">
-    <ul class="row">
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-        <li class="small-12 medium-4 large-4 columns">
-            <a href=""><img src="https://unsplash.it/600/400/?random" alt=""></a>
-        </li>
-    </ul>
+<div class="wrapper">
+    <section id="portfolio" class="row">
+        <h1 class="text-center">My Work</h1>
+        <ul class="row">
+            <li class="small-12 medium-4 large-4 columns">
+                <figure class="effect-julia">
+                    <img src="https://unsplash.it/600/400/?random" alt="img21" />
+                    <figcaption>
+                        <h2>Passionate <span>Julia</span></h2>
+                        <div>
+                            <p>Julia dances in the deep dark</p>
+                            <p>She loves the smell of the ocean</p>
+                            <p>And dives into the morning light</p>
+                        </div>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="small-12 medium-4 large-4 columns">
+                <figure class="effect-julia">
+                    <img src="https://unsplash.it/600/400/?random" alt="img22" />
+                    <figcaption>
+                        <h2>Passionate <span>Julia</span></h2>
+                        <div>
+                            <p>Julia dances in the deep dark</p>
+                            <p>She loves the smell of the ocean</p>
+                            <p>And dives into the morning light</p>
+                        </div>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="small-12 medium-4 large-4 columns">
+                <figure class="effect-julia">
+                    <img src="https://unsplash.it/600/400/?random" alt="img22" />
+                    <figcaption>
+                        <h2>Passionate <span>Julia</span></h2>
+                        <div>
+                            <p>Julia dances in the deep dark</p>
+                            <p>She loves the smell of the ocean</p>
+                            <p>And dives into the morning light</p>
+                        </div>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="small-12 medium-4 large-4 columns">
+                <figure class="effect-julia">
+                    <img src="https://unsplash.it/600/400/?random" alt="img22" />
+                    <figcaption>
+                        <h2>Passionate <span>Julia</span></h2>
+                        <div>
+                            <p>Julia dances in the deep dark</p>
+                            <p>She loves the smell of the ocean</p>
+                            <p>And dives into the morning light</p>
+                        </div>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="small-12 medium-4 large-4 columns">
+                <figure class="effect-julia">
+                    <img src="https://unsplash.it/600/400/?random" alt="img22" />
+                    <figcaption>
+                        <h2>Passionate <span>Julia</span></h2>
+                        <div>
+                            <p>Julia dances in the deep dark</p>
+                            <p>She loves the smell of the ocean</p>
+                            <p>And dives into the morning light</p>
+                        </div>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li class="small-12 medium-4 large-4 columns">
+                <figure class="effect-julia">
+                    <img src="https://unsplash.it/600/400/?random" alt="img22" />
+                    <figcaption>
+                        <h2>Passionate <span>Julia</span></h2>
+                        <div>
+                            <p>Julia dances in the deep dark</p>
+                            <p>She loves the smell of the ocean</p>
+                            <p>And dives into the morning light</p>
+                        </div>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
 
-</section>
+    </section>
+</div>
