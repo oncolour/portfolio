@@ -78,7 +78,7 @@
  
  figure.effect-julia img {
      max-width: none;
-     height: 400px;
+     height: 340px;
      -webkit-transition: opacity 1s, -webkit-transform 1s;
      transition: opacity 1s, transform 1s;
      -webkit-backface-visibility: hidden;
@@ -106,7 +106,7 @@
      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
      transition: opacity 0.35s, transform 0.35s;
      -webkit-transform: translate3d(-360px, 0, 0);
-     transform: translate3d(-360px, 0, 0);
+     transform: translate3d(-480px, 0, 0);
  }
  
  figure.effect-julia p:first-child {
@@ -143,7 +143,7 @@
      opacity: 0.4;
      -webkit-transform: scale3d(1.1, 1.1, 1);
      transform: scale3d(1.6, 1.6, 1);
-     transition: opacity 0.5s,transform 4s;
+     transition: opacity 0.5s, transform 4s;
  }
  
  figure.effect-julia:hover p {
