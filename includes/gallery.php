@@ -18,9 +18,9 @@
             </li>
             <li class="small-12 medium-4 large-4 columns">
                 <figure class="effect-julia">
-                    <img src="https://unsplash.it/600/400/?random" alt="img22" />
+                    <img src="assets/images/seleste-shot.jpg" alt="img22" />
                     <figcaption>
-                        <h2>Passionate <span>Julia</span></h2>
+                        <h2><span>Seleste</span></h2>
                         <div>
                             <p>Julia dances in the deep dark</p>
                             <p>She loves the smell of the ocean</p>
@@ -32,7 +32,7 @@
             </li>
             <li class="small-12 medium-4 large-4 columns">
                 <figure class="effect-julia">
-                    <img src="https://unsplash.it/600/400/?random" alt="img22" />
+                    <img src="assets/images/sbpr-shot.jpg" alt="img22" />
                     <figcaption>
                         <h2>Passionate <span>Julia</span></h2>
                         <div>
