@@ -94,6 +94,15 @@
      padding: 0.5em 0;
  }
  
+ figure.effect-julia h2 {
+     display: inline-block;
+     font-weight: 600;
+     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+     transition: opacity 0.35s, transform 0.35s;
+     -webkit-transform: translate3d(-360px, 0, 0);
+     transform: translate3d(-480px, 0, 0);
+ }
+ 
  figure.effect-julia p {
      display: inline-block;
      margin: 0 0 0.25em;
@@ -109,7 +118,8 @@
      transform: translate3d(-480px, 0, 0);
  }
  
- figure.effect-julia p:first-child {
+ figure.effect-julia p:first-child,
+ figure.effect-julia h2 {
      -webkit-transition-delay: 0.15s;
      transition-delay: 0.15s;
  }
@@ -124,7 +134,8 @@
      transition-delay: 0.05s;
  }
  
- figure.effect-julia:hover p:first-child {
+ figure.effect-julia:hover p:first-child,
+ figure.effect-julia:hover h2:first-child {
      -webkit-transition-delay: 0s;
      transition-delay: 0s;
  }
@@ -146,7 +157,8 @@
      transition: opacity 0.5s, transform 4s;
  }
  
- figure.effect-julia:hover p {
+ figure.effect-julia:hover p,
+ figure.effect-julia:hover h2 {
      opacity: 1;
      -webkit-transform: translate3d(0, 0, 0);
      transform: translate3d(0, 0, 0);

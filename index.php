@@ -6,6 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oncolour</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/app.css">
 </head>
 
@@ -36,6 +37,7 @@
     </section>
     <!-- Include gallery section -->
     <?php include('includes/gallery.php'); ?>
+
 
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/what-input/what-input.js"></script>
