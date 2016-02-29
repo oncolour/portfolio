@@ -93,12 +93,18 @@ nav[role=navigation] div ul li a {
     background: #293134;
 }
 
-#portfolio {}
+#portfolio {
+    padding: 2em 0 0 0;
+}
 
 #portfolio h1 {
     color: #fafafa;
     font-weight: 800;
     margin: 0 0 4rem;
+}
+
+#portfolio ul {
+    margin: 0;
 }
 
 #portfolio ul li {
