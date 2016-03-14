@@ -1,0 +1,36 @@
+/* Portfolio - Gallery */
+
+.wrapper {
+    background: #293134;
+}
+
+#portfolio {
+    padding: 2em 0 0 0;
+}
+
+#portfolio h1 {
+    color: #fafafa;
+    font-weight: 800;
+    margin: 0 0 4rem;
+}
+
+#portfolio ul {
+    margin: 0;
+}
+
+#portfolio ul li {
+    padding: 0;
+}
+
+
+/* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) {
+    /* Portfolio Grid */
+    #portfolio {
+        padding: 6rem 0 4rem;
+    }
+    .large-4 {
+        width: 33.3333333333333333%;
+    }
+}
