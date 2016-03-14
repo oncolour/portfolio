@@ -12,7 +12,9 @@
 
 <body>
 
-
+    <video id="hero-video" width="320" height="240" controls autoplay poster="assets/videos/nz.mp4">
+        <source src="/assets/videos/NZ-oncolour.mp4" type="video/mp4"> Sorry, your browser doesn't support HTML5 video.
+    </video>
     <section class="hero">
         <nav role="navigation" class="row">
             <div class="large-9 columns">
@@ -26,10 +28,7 @@
                 </ul>
             </div>
         </nav>
-        <video width="320" height="240" controls autoplay poster="/img/scene-preview.jpg">
-            <source src="/mov/scene.mp4" type="video/mp4">
-            <source src="/mov/scene.webm" type="video/webm"> Sorry, your browser doesn't support HTML5 video.
-        </video>
+
         <div class="row intro">
 
             <div class="small-centered medium-9 large-7 columns text-center">
