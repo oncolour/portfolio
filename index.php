@@ -24,13 +24,13 @@
                 </ul>
             </div>
         </nav>
-        <video id="hero-video" autoplay loop poster="assets/images/lake-pukaki.jpg">
+        <video id="hero-video" class="animated fadeIn" preload autoplay loop poster="assets/images/video-preload.jpg">
             <source src="assets/videos/nz.mp4" type="video/mp4"> Sorry, your browser doesn't support HTML5 video.
 
         </video>
         <div id="hero-content" class="row intro">
 
-            <div class="small-centered medium-9 large-7 columns text-center">
+            <div class="small-centered medium-9 large-7 columns text-center fadeInUp">
                 <h1>Hi, I'm Oscar Nilsson</h1>
                 <p>A Swedish Web designer, currently living in Canada who’s passionate about interface design, usability and Wordpress.</p>
                 <a role="button" class="button large" href="#work">Check out my work</a>
