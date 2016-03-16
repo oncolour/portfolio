@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 
-<body>
+<body id="body">
     <section class="hero">
         <nav role="navigation" class="row">
             <div class="large-9 columns">
@@ -35,6 +35,10 @@
                 <p>A Swedish Web designer, currently living in Canada who’s passionate about interface design, usability and Wordpress.</p>
                 <a role="button" class="button large" href="#work">Check out my work</a>
             </div>
+        </div>
+        <div class="preloader-nav">
+            <span class="preloader-nav-touch small">Swipe up</span>
+            <span class="preloader-nav-notouch">Scroll or use arrow keys</span>
         </div>
     </section>
     <!-- Include gallery section -->

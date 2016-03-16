@@ -3,24 +3,21 @@
 nav[role=navigation] {
     padding-top: 1rem;
     z-index: 1;
-}
-
-nav[role=navigation] img {
-    opacity: 0.8;
-    width: 4rem;
-}
-
-nav[role=navigation] ul {
-    display: none;
-}
-
-nav[role=navigation] div ul li a {
-    color: #f6f6f6;
-    font-style: italic;
-    font-size: 1.2rem;
-    display: block;
-    text-align: center;
-    padding: 0.5rem 0;
+    img {
+        opacity: 0.8;
+        width: 4rem;
+    }
+    ul {
+        display: none;
+    }
+    div ul li a {
+        color: #f6f6f6;
+        font-style: italic;
+        font-size: 1.2rem;
+        display: block;
+        text-align: center;
+        padding: 0.5rem 0;
+    }
 }
 
 
@@ -103,7 +100,6 @@ nav[role=navigation] div ul li a {
         z-index: -1;
         left: 50%;
         margin-left: -960px;
-        
         transition: opacity 1s;
     }
     #hero-content {
