@@ -17,7 +17,7 @@ figure img {
 }
 
 figure figcaption {
-    padding: 2em;
+    padding: 0 2em;
     color: #fff;
     text-transform: uppercase;
     font-size: 1.25em;
@@ -101,11 +101,6 @@ figure.effect-julia figcaption {
 }
 
 figure.effect-julia h2 {
-    position: relative;
-    padding: 0.5em 0;
-}
-
-figure.effect-julia h2 {
     display: inline-block;
     font-weight: 700;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -131,6 +126,24 @@ figure.effect-julia p {
 
 @media only screen and (min-width: 64.063em) {
     /* Applying effect only on Large */
+    figure.effect-julia h2 {}
+    // Font effects 
+    .effect-julia h2 {
+        position: relative;
+        font-size: calc(1vw + 1vh + 2vmin);
+        line-height: 1;
+        padding: 0 0 0.5em 0;
+    }
+    .effect-julia p:last-child {
+        margin-bottom: 0;
+    }
+    
+    .effect-julia figcaption div {
+        position: relative;
+    top: 50%!important;
+    transform: translateY(-50%);
+    }
+    
     figure.effect-julia p:first-child,
     figure.effect-julia h2 {
         -webkit-transition-delay: 0.15s;
