@@ -1,16 +1,6 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<?php require 'includes/page_header.php';?>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oncolour</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/app.css">
-</head>
 
-<body id="body">
     <section class="hero">
         <nav role="navigation" class="row">
             <div class="large-9 columns">
@@ -41,14 +31,8 @@
             <span class="preloader-nav-notouch">Scroll or use arrow keys</span>
         </div>
     </section>
+
     <!-- Include gallery section -->
     <?php include('includes/gallery.php'); ?>
 
-
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/what-input/what-input.js"></script>
-        <script src="bower_components/foundation-sites/dist/foundation.js"></script>
-        <script src="js/app.js"></script>
-</body>
-
-</html>
+        <?php require 'includes/page_footer.php' ?>
