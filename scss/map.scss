@@ -1,0 +1,15 @@
+/* SVG Map Styling */
+
+.container {
+    width: 100%;
+    background: #535364;
+    margin: 0 auto;
+}
+
+
+/* Required to make image fluid in IE */
+
+img:not(.png),
+img:not(.jpg) {
+    width: 100%;
+}
