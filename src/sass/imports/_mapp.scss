@@ -1,0 +1,62 @@
+/* SVG Map Styling */
+
+#worldMap {
+    top: -25%;
+    position: relative;
+}
+
+.container {
+    background: #535364;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    // background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#CA,
+#SE,
+#AU,
+#NZ,
+#TH,
+#MM,
+#LA,
+#KH,
+#VN,
+#ES,
+#TR,
+#GR,
+#CY,
+#NO,
+#FI {
+    fill: #78976e;
+    transition: fill ease 0.35s;
+}
+
+#CA:hover,
+#SE:hover,
+#AU:hover,
+#NZ:hover,
+#TH:hover,
+#MM:hover,
+#LA:hover,
+#KH:hover,
+#VN:hover,
+#ES:hover,
+#TR:hover,
+#GR:hover,
+#CY:hover,
+#NO:hover,
+#FI:hover {
+    fill: #698560;
+    transition: fill ease 0.35s;
+}
+
+
+/* Required to make image fluid in IE */
+
+img:not(.png),
+img:not(.jpg) {
+    width: 100%;
+}

@@ -1,0 +1,79 @@
+$gutter-mobile: 40px;
+$gutter-tablet: 100px;
+
+$max-width: 960px;
+
+// Navigation //
+[role=navigation] {
+    @include flex-grid-column(12, $gutter-mobile);
+    @include breakpoint(medium) {
+        @include flex-grid-column(12, $gutter-tablet);
+    }
+    @include breakpoint(xxlarge) {
+        @include flex-grid-row('expanded', 90em, 1, true, 0);
+    }
+}
+
+// Hero //
+#hero-content {
+    @include flex-grid-row('expanded', 100%, 1, true, 0);
+    @include breakpoint(xxlarge) {
+        @include flex-grid-row(null, $max-width, 1, true, 0);
+    }
+    div {
+        @include flex-grid-column(1, $gutter-mobile);
+    }
+    div {
+        @include breakpoint(medium) {
+            @include flex-grid-column(1, $gutter-tablet);
+        }
+    }
+}
+
+// Portfolio //
+.portfolio-gallery-images {
+    @include flex-grid-row('collapse expanded', 100vw, 12, true, 0);
+    margin: auto;
+}
+
+.portfolio-gallery-image {
+    @include flex-grid-column(12, 0);
+    @include breakpoint(medium) {
+        @include flex-grid-column(12, 0);
+    }
+    @include breakpoint(large) {
+        @include flex-grid-column(6, 0);
+    }
+    @include breakpoint(xxlarge) {
+        @include flex-grid-column(4, 0);
+    }
+}
+
+// Travel Grid //
+$travel-gallery-images-per-row: 4;
+#travel-gallery-images {
+    @include flex-grid-row('collapse expanded', 90rem, $travel-gallery-images-per-row, true, 0);
+    margin: auto
+}
+
+.travel-gallery-image {
+    @include flex-grid-column(2, 0);
+    @include breakpoint(medium) {
+        @include flex-grid-column(1, 0);
+    }
+    display: inline-block;
+    opacity: 0;
+    height: 300px;
+    width: 100%;
+}
+
+// Page Footer //
+#page-footer {
+    background: #232b2e;
+    height: 150px;
+    @include flex-grid-column(12, $gutter-mobile);
+    @include breakpoint(medium) {
+        @include flex-grid-column(12, $gutter-tablet);
+    }
+   
+}

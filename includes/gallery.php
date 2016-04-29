@@ -1,94 +1,92 @@
-<div class="wrapper">
-    <section id="portfolio" class="row">
-        <h1 class="text-center">My Work</h1>
-        <ul class="row">
+<section class="portfolio-wrapper">
+    <h1 class="text-center">My Work</h1>
+    <ul class="portfolio-gallery-images">
 
 
-            <li class="small-12 medium-6 large-4 columns">
-                <figure class="effect-julia">
-                    <img src="assets/images/traverser-shot.jpg" alt="img22" />
-                    <figcaption>
-                        <div>
-                            <h2>Traverser</h2>
-                            <p>Promotion website for Gatling Goat</p>
-                            <p>Studios PC game Traverser.</p>
-                        </div>
-                        <a href="#">View more</a>
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="small-12 medium-6 large-4 columns">
-                <figure class="effect-julia">
-                    <img src="assets/images/the-national-dinosaur-museum-shot.jpg" alt="img21" />
-                    <figcaption>
+        <li class="portfolio-gallery-image">
+            <figure class="effect-julia">
+                <img src="src/images/traverser-shot.jpg" alt="img22" />
+                <figcaption>
+                    <div>
+                        <h2>Traverser</h2>
+                        <p><span>Promotion website for Gatling Goat</span></p>
+                        <p><span>Studios PC game Traverser.</span></p>
+                    </div>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+        </li>
+        <li class="portfolio-gallery-image">
+            <figure class="effect-julia">
+                <img src="src/images/the-national-dinosaur-museum-shot.jpg" alt="img21" />
+                <figcaption>
 
-                        <div>
-                            <h2>TNDM</h2>
-                            <p>Designed a new visual identity including</p>
-                            <p>website, business card and an entry ticket</p>
-                            <p>for The National Dinosaur Museum.</p>
+                    <div>
+                        <h2>TNDM</h2>
+                        <p><span>Designed a new visual identity including</span></p>
+                        <p><span>website, business card and an entry ticket</span></p>
+                        <p><span>for The National Dinosaur Museum.</span></p>
 
-                        </div>
-                        <a href="#">View more</a>
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="small-12 medium-6 large-4 columns">
-                <figure class="effect-julia">
-                    <img src="assets/images/gotime-shot.jpg" alt="img22" />
-                    <figcaption>
-                        <div>
-                            <h2>Gotime</h2>
-                            <p>Visual identity following logotype</p>
-                            <p>and web design design trends in 2013.</p>
-                        </div>
-                        <a href="#">View more</a>
-                    </figcaption>
-                </figure>
-            </li>
+                    </div>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+        </li>
+        <li class="portfolio-gallery-image">
+            <figure class="effect-julia">
+                <img src="src/images/gotime-shot.jpg" alt="img22" />
+                <figcaption>
+                    <div>
+                        <h2>Gotime</h2>
+                        <p><span>Visual identity following logotype</span></p>
+                        <p><span>and web design design trends in 2013.</span></p>
+                    </div>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+        </li>
 
-            <li class="small-12 medium-6 large-4 columns">
-                <figure class="effect-julia">
-                    <img src="assets/images/sbpr-shot.jpg" alt="img22" />
-                    <figcaption>
-                        <div>
-                            <h2>SBPR</h2>
-                            <p>Website and logotype concept designs.</p>
-                        </div>
-                        <a href="#">View more</a>
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="small-12 medium-6 large-4 columns">
-                <figure class="effect-julia">
-                    <img src="assets/images/seleste-shot.jpg" alt="img22" />
-                    <figcaption>
-                        <div>
-                            <h2>Seleste</h2>
-                            <p>Responsive web shop designed for</p>
-                            <p>"An uncommon mix of Scandanavian</p>
-                            <p>modernism and functionality."</p>
+        <li class="portfolio-gallery-image">
+            <figure class="effect-julia">
+                <img src="src/images/sbpr-shot.jpg" alt="img22" />
+                <figcaption>
+                    <div>
+                        <h2>SBPR</h2>
+                        <p><span>Website and logotype concept designs.</span></p>
+                    </div>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+        </li>
+        <li class="portfolio-gallery-image">
+            <figure class="effect-julia">
+                <img src="src/images/seleste-shot.jpg" alt="img22" />
+                <figcaption>
+                    <div>
+                        <h2>Seleste</h2>
+                        <p><span>Responsive web shop designed for</span></p>
+                        <p><span>"An uncommon mix of Scandanavian</span></p>
+                        <p><span>modernism and functionality."</span></p>
 
-                        </div>
-                        <a href="#">View more</a>
-                    </figcaption>
-                </figure>
-            </li>
+                    </div>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+        </li>
 
-            <li class="small-12 medium-6 large-4 columns">
-                <figure class="effect-julia">
-                    <img src="assets/images/feskarn-shot.jpg" alt="img22" />
-                    <figcaption>
-                        <div>
-                            <h2>Feskarn</h2>
-                            <p>Website and web shop design for</p>
-                            <p>restaurante Feskarn in Uppsala Sweden.</p>
-                        </div>
-                        <a href="#">View more</a>
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
+        <li class="portfolio-gallery-image">
+            <figure class="effect-julia">
+                <img src="src/images/feskarn-shot.jpg" alt="img22" />
+                <figcaption>
+                    <div>
+                        <h2>Feskarn</h2>
+                        <p><span>Website and web shop design for</span></p>
+                        <p><span>restaurante Feskarn in Uppsala Sweden.</span></p>
+                    </div>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+        </li>
+    </ul>
 
-    </section>
-</div>
+</section>

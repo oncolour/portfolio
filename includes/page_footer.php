@@ -1,7 +1,7 @@
-<script src="bower_components/jquery/dist/jquery.js"></script>
-<script src="bower_components/what-input/what-input.js"></script>
-<script src="bower_components/foundation-sites/dist/foundation.js"></script>
-<script src="js/app.js"></script>
+<?php require 'footer.php' ?>
+<script type="text/javascript" src="js/vendor/foundation.min.js"></script>
+<script type="text/javascript" src="js/vendor/motion-ui.min.js"></script>
+<script type="text/javascript" src="src/javascripts/oncolour.js"></script>
 </body>
 
 </html>
