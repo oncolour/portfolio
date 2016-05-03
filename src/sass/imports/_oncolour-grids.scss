@@ -70,10 +70,31 @@ $travel-gallery-images-per-row: 4;
 // Page Footer //
 #page-footer {
     background: #232b2e;
-    height: 150px;
-    @include flex-grid-column(12, $gutter-mobile);
-    @include breakpoint(medium) {
-        @include flex-grid-column(12, $gutter-tablet);
+    @include flex-grid-row('collapse expanded', 100vw, 12, true, 0);
+    margin: auto;
+    
+     @include breakpoint(large) {
+         align-items: center;
     }
-   
+}
+
+#footer-profile-pic {
+ @include flex-grid-column(12, $gutter-mobile);
+    @include breakpoint(large) {
+        @include flex-grid-column(3, 0);
+    }
+    @include breakpoint(xxlarge) {
+        @include flex-grid-column(3, 0);
+    }
+}
+
+#footer-txt {
+ @include flex-grid-column(12, $gutter-mobile);
+
+    @include breakpoint(large) {
+        @include flex-grid-column(6, 0);
+    }
+    @include breakpoint(xxlarge) {
+        @include flex-grid-column(5, 0);
+    }
 }

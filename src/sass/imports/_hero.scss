@@ -43,38 +43,35 @@ nav[role=navigation] {
 }
 
 
-// Mobile
+// Hero Mobile
 #hero-video {
     
-     background: url('src/../../images/video-preload.jpg');
-    background-size: cover;
+    background: url('src/../../images/video-preload.jpg') center center / cover;
     min-height: 100vh;
-        position: absolute;
+    width: 100%;
+    position: absolute;
     top: 0;
     z-index: -1;
 }
-// Large 
+// Hero Large 
 @media only screen and (min-width: 64.063em) {
     #hero-video.loaded {
         opacity: 1;
     }
     #hero-video {
-        
-        
-        
-        width: 100%;
-        min-width: 1920px;
+        min-width: 100vw;
         
         left: 50%;
-        margin-left: -960px;
+        margin-left: -50%;
         transition: opacity 1s;
     }
 }
-// Full screen
+// Hero Full screen
 @media only screen and (min-width: 1920px) {
     #hero-video {
         left: 0;
         margin-left: 0;
+        
     }
 }
 
