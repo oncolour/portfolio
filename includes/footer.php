@@ -1,6 +1,6 @@
 <footer id="page-footer">
      <div id="footer-profile-pic">
-         <img src="images/profile-pic-oscar-nilsson.jpg" alt="Oscar Nilsson Profile Picture">
+         <img src="<?php echo SCRIPT_ROOT."/"; ?>images/profile-pic-oscar-nilsson.jpg" alt="Oscar Nilsson Profile Picture">
      </div>
      <div id="footer-txt">
          <h3>Hello, and thank you for taking the time to review my portfolio.</h3>

@@ -2,18 +2,7 @@
 
 
     <section class="hero-wrapper">
-        <nav role="navigation" class="">
-            <div class="">
-                <a href="/"><img src="http://www.oncolour.se/wp-content/themes/oncolour-theme/img/logo-oncolour.png" alt="Logo home button"></a>
-            </div>
-            <div class="">
-                <ul class="">
-                    <li class=""><a href="">Work</a></li>
-                    <li class=""><a href="">About</a></li>
-                    <li class=""><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+        
         <video id="hero-video" class="animated fadeIn" preload loop>
             <!--<source src="src/videos/nz.mp4" type="video/mp4"> Sorry, your browser doesn't support HTML5 video.-->
 

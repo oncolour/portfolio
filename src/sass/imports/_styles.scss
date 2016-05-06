@@ -1,7 +1,22 @@
+/* Variables */
+
+@font-face {
+    font-family: gidole;
+    src: url('../fonts/gidolefont/Gidole-Regular.ttf');
+    src: url('../fonts/gidolefont/Gidolinya-Regular.otf');
+}
+$gidole: gidole, "Open Sans", Helvetica, Arial, sans-serif;
+$open-sans: "Open Sans", Helvetica, Arial, sans-serif;
+/* Colours2 */
+$white-color: #fafafa;
+$bg-color: #293134;
+
+$mobile-row-padding: 0 1.25rem;
+
 /* Reset */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $open-sans;
     font-weight: 300;
     letter-spacing: 0.6px;
     //background-color: #000;
@@ -19,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: $open-sans;
     font-weight: normal;
     font-style: normal;
     color: inherit;
@@ -28,20 +43,14 @@ h6 {
     margin-bottom: 0.5rem;
     line-height: 1.2;
 }
+p {
+    font-family: $open-sans;
+    font-size: 1.04rem;
+} 
 
-/* Colours2 */
-$white-color: #fafafa;
-$bg-color: #293134;
 
 
-//Breakpoints
-$breakpoints: (
-        small: 0,
-        medium: 640px,
-        large: 1024px,
-        xlarge: 1200px,
-        xxlarge: 1440px,
-);
+
 
 
 #travel-gallery {

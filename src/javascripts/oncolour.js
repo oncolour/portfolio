@@ -86,7 +86,70 @@
 
         });
 
-        // End Fade in on Scroll      
+        // Next Project Array Object
+        var myBackground = [
+            {
+                title: "Traverser",
+                background: "src/images/bg.jpg"
+            },
+            {
+                title: "TNDM",
+                background: "http://www.intrawallpaper.com/static/images/abstract-mosaic-background.png"
+
+             },
+            {
+                title: "Gotime",
+                background: "http://www.intrawallpaper.com/static/images/background-wallpapers-26_HgdHzBm.jpg"
+
+            },
+        {
+            title: "Falk",
+            background: ""
+        },
+        {
+            title: "SBPR",
+            background: ""
+        },
+        {
+            title: "Seleste",
+            background: ""
+        },
+        {
+            title: "Feskarn",
+            background: ""
+        },
+        {
+            title: "Masterpiece Retirement",
+            background: ""
+        },
+        {
+            title: "Island Birds",
+            background: ""
+        },
+        {
+            title: "GDservice",
+            background: ""
+        },
+        {
+            title: "Intoria",
+            background: ""
+        }];
+
+
+        // Generates a number between 0 and the amount of objects in $myBackground
+        var numRand = Math.floor(Math.random() * myBackground.length);
+
+        // Populate Next Project with Background and Title
+        $('.next-project').css({
+            "background": "url('" + myBackground[numRand].background + "') center center / cover",
+            "color": "red"
+        });
+
+        $('.next-project-title').append(myBackground[numRand].title);
+
+
+
+
 
     });
 })(jQuery);

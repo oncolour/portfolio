@@ -9,7 +9,7 @@ figure {
     cursor: pointer;
 }
 
-figure img {
+figure img, figure picture {
     position: relative;
     display: block;
     min-height: 100%;
@@ -88,7 +88,7 @@ figure.effect-julia {
     background: #2f3238;
 }
 
-figure.effect-julia img {
+figure.effect-julia img, figure.effect-julia picture {
     max-width: 100%;
     -webkit-transition: opacity 1s, -webkit-transform 1s;
     transition: opacity 1s, transform 1s;
@@ -171,7 +171,8 @@ figure.effect-julia p {
         -webkit-transition-delay: 0.1s;
         transition-delay: 0.1s;
     }
-    figure.effect-julia:hover img {
+    figure.effect-julia:hover img,
+    figure.effect-julia:hover picture {
         opacity: 0.4;
         -webkit-transform: scale3d(1.1, 1.1, 1);
         transform: scale3d(1.6, 1.6, 1);

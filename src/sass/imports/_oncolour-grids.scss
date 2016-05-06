@@ -49,6 +49,37 @@ $max-width: 960px;
     }
 }
 
+// project context info //
+.project-context-info {
+    @include flex-grid-column(12, $gutter-mobile);
+}
+.project-context-info-list {
+    @include flex-grid-row('collapse expanded', 100vw, 12, true, 0);
+    li {
+        @include flex-grid-column(4, 20px);
+    }
+    li:first-child {
+        padding-left: 0;
+    }
+    li:last-child {
+        padding-right: 0;
+    }
+    @include breakpoint(xlarge) {
+        @include flex-grid-row('collapse expanded', 1200px, 12, true, 0);
+    }
+}
+
+.project-presentation {
+    @include breakpoint(large) {
+        @include flex-grid-row('collapse expanded', 85%, 2, true, 0);
+        
+        picture, p {
+            @include flex-grid-column(1, $gutter-mobile);
+        }
+    }
+}
+
+
 // Travel Grid //
 $travel-gallery-images-per-row: 4;
 #travel-gallery-images {

@@ -2320,6 +2320,48 @@ select {
       flex: 0 0 33.3333333333%;
       max-width: 33.3333333333%; } }
 
+.project-context-info {
+  flex: 0 0 100%;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  max-width: 100%; }
+
+.project-context-info-list {
+  max-width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row wrap; }
+  .project-context-info-list li {
+    flex: 0 0 33.3333333333%;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    max-width: 33.3333333333%; }
+  .project-context-info-list li:first-child {
+    padding-left: 0; }
+  .project-context-info-list li:last-child {
+    padding-right: 0; }
+  @media screen and (min-width: 75em) {
+    .project-context-info-list {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-flow: row wrap; } }
+
+@media screen and (min-width: 64em) {
+  .project-presentation {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap; }
+    .project-presentation picture, .project-presentation p {
+      flex: 0 0 50%;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+      max-width: 50%; } }
+
 #travel-gallery-images {
   max-width: 90rem;
   margin-left: auto;

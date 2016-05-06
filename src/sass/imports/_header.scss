@@ -1,0 +1,38 @@
+/* Nav */
+
+.header-bar {
+    .header-bar-logo {
+        top: 1.5rem;
+        left: 1.25rem;
+        position: fixed;
+        z-index: 1000;
+        cursor: pointer;
+        transition: all .3s ease-out;
+        color: $white-color;
+        img {
+            opacity: 0.8;
+            width: 4rem;
+        }
+    }
+    i {
+        line-height: inherit;
+        right: 1.25rem;
+        top: 1.5rem;
+        position: fixed;
+        z-index: 1000;
+        color: $white-color;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .header-bar {
+        .header-bar-logo {
+            top: 5rem;
+            left: 5.25rem;  
+        }
+        i {
+            top: 5rem;
+            right: 5.25rem;
+        }
+    }
+}
