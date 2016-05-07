@@ -1,4 +1,4 @@
-<section class="portfolio-wrapper">
+<section id="work" class="portfolio-wrapper">
     <h1>My Work</h1>
     <ul class="portfolio-gallery-images">
 
@@ -10,7 +10,7 @@
                         <h2>Masterpiece Retirement</h2>
                         <p><span>Wireframing &amp; Web Design</span></p>
                     </div>
-                    <a href="#">View more</a>
+                    <a href="projects/masterpiece/">View more</a>
                 </figcaption>
             </figure>
         </li>
@@ -22,7 +22,7 @@
                         <h2>Island Birds</h2>
                         <p><span>Wireframing &amp; Web Design</span></p>
                     </div>
-                    <a href="#">View more</a>
+                    <a href="projects/island-birds/">View more</a>
                 </figcaption>
             </figure>
         </li>
@@ -34,7 +34,7 @@
                         <h2>Falk</h2>
                         <p><span>Presentation folder</span></p>
                     </div>
-                    <a href="#">View more</a>
+                    <a href="projects/falk/">View more</a>
                 </figcaption>
             </figure>
         </li>
@@ -49,7 +49,7 @@
                         <p><span>modernism and functionality"</span></p>
 
                     </div>
-                    <a href="#">View more</a>
+                    <a href="projects/seleste/">View more</a>
                 </figcaption>
             </figure>
         </li>
@@ -62,7 +62,7 @@
                         <p><span>Web Design, Front-End Development,</span></p>
                         <p><span> SEO &amp; Speed Optimization</span></p>
                     </div>
-                    <a href="#">View more</a>
+                    <a href="projects/gdservice/">View more</a>
                 </figcaption>
             </figure>
         </li>
@@ -74,7 +74,7 @@
                         <h2>Intoria</h2>
                         <p><span>Web Design &amp; Front-End Development</span></p>
                     </div>
-                    <a href="#">View more</a>
+                    <a href="projects/intoria/">View more</a>
                 </figcaption>
             </figure>
         </li>
@@ -87,7 +87,7 @@
                         <p><span>Website and web shop design for</span></p>
                         <p><span>restaurante Feskarn in Uppsala Sweden</span></p>
                     </div>
-                    <a href="#">View more</a>
+                    <a href="projects/feskarn/">View more</a>
                 </figcaption>
             </figure>
         </li>
@@ -100,7 +100,7 @@
                         <p><span>Promotion website for Gatling Goat</span></p>
                         <p><span>Studios PC game Traverser</span></p>
                     </div>
-                    <a href="#">View more</a>
+                    <a href="projects/traverser/">View more</a>
                 </figcaption>
             </figure>
         </li>
@@ -116,7 +116,7 @@
                         <p><span>Visual identity following logotype</span></p>
                         <p><span>and web design design trends in 2013.</span></p>
                     </div>
-                    <a href="#">View more</a>
+                    <a href="projects/gotime/">View more</a>
                 </figcaption>
             </figure>
         </li>

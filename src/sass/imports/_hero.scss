@@ -44,16 +44,16 @@
 
 
 
-#hero-content {
+#hero-content { 
     text-align: center;
     h1 {
-        font-size: 2rem;
-        font-weight: 300;
-        font-style: italic;
+        font: italic 400 2rem/1.2 $open-sans;
+
     }
     p {
         font-size: 1.2rem;
     }
+    
     [role=button] {
         margin-top: 1.5rem;
     }

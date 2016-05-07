@@ -74,8 +74,12 @@ $max-width: 960px;
         @include flex-grid-row('collapse expanded', 85%, 2, true, 0);
         
         picture, p {
-            @include flex-grid-column(1, $gutter-mobile);
+            @include flex-grid-column(1, 0);
         }
+    }
+    
+    @include breakpoint(xxlarge) {
+        @include flex-grid-row('collapse expanded', 1400px, 2, true, 0); 
     }
 }
 

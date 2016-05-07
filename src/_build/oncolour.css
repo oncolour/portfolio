@@ -1,10 +1,5 @@
 @charset "UTF-8";
 /* Variables */
-@font-face {
-  font-family: gidole;
-  src: url("../fonts/gidolefont/Gidole-Regular.ttf");
-  src: url("../fonts/gidolefont/Gidolinya-Regular.otf"); }
-
 /* Colours2 */
 /* Reset */
 body {
@@ -134,9 +129,7 @@ img:after {
 #hero-content {
   text-align: center; }
   #hero-content h1 {
-    font-size: 2rem;
-    font-weight: 300;
-    font-style: italic; }
+    font: italic 400 2rem/1.2 "Open Sans", Helvetica, Arial, sans-serif; }
   #hero-content p {
     font-size: 1.2rem; }
   #hero-content [role=button] {
@@ -386,7 +379,7 @@ img:not(.jpg) {
     text-align: center;
     padding: 0 1.25rem; }
     .hero-wrapper.post div h1 {
-      font-family: gidole, "Open Sans", Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
       font-size: 3.5rem; }
     .hero-wrapper.post div p {
       font-size: 1.125rem; }
@@ -395,9 +388,22 @@ img:not(.jpg) {
       font-size: 1.7rem;
       color: rgba(250, 250, 250, 0.8);
       font-weight: 400;
-      font-family: gidole;
-      text-transform: capitalize; }
-    .hero-wrapper.post div a::after {
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      text-transform: capitalize;
+      line-height: 1.2; }
+    .hero-wrapper.post div a.inactive {
+      text-decoration: line-through;
+      cursor: default; }
+      .hero-wrapper.post div a.inactive::after {
+        content: "Not available...";
+        display: block;
+        font-size: 12px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: -15px; }
+    .hero-wrapper.post div a.active::after {
       position: absolute;
       top: 100%;
       left: 0;
@@ -412,23 +418,27 @@ img:not(.jpg) {
       -webkit-transform: translateY(10px);
       -moz-transform: translateY(10px);
       transform: translateY(10px); }
-    .hero-wrapper.post div a:hover::after,
-    .hero-wrapper.post div a:focus::after {
+    .hero-wrapper.post div a.active:hover::after,
+    .hero-wrapper.post div a.active:focus::after {
       opacity: 1;
       -webkit-transform: translateY(0px);
       -moz-transform: translateY(0px);
       transform: translateY(0px); }
-
-.hero-wrapper.post::after {
-  content: "";
-  background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%; }
-
-.hero-wrapper.post.gotime {
-  background: url("../images/gotime-hero-mobile.jpg") center center/cover; }
+  .hero-wrapper.post::before {
+    content: " ";
+    position: absolute;
+    overflow: hidden;
+    -webkit-filter: blur(5px);
+    top: 0;
+    height: 100%;
+    width: 100%; }
+  .hero-wrapper.post::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%; }
 
 .project-container {
   background: #fafafa; }
@@ -447,7 +457,6 @@ img:not(.jpg) {
   padding-bottom: 3em; }
 
 .project-presentation picture,
-.project-presentation img,
 .project-presentation p {
   margin-bottom: 1.25rem; }
 
@@ -463,7 +472,16 @@ img:not(.jpg) {
   display: flex;
   justify-content: center;
   flex-direction: column; }
+  .next-project::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%; }
   .next-project .next-project-container {
+    position: relative;
+    z-index: 1000;
     padding: 0 1.25rem;
     text-align: center;
     color: #fafafa; }
@@ -474,9 +492,9 @@ img:not(.jpg) {
       position: absolute;
       top: 0;
       left: 0; }
-  .next-project .next-project-container::after {
-    content: "\f178";
-    font: normal normal normal 20px/1 FontAwesome; }
+    .next-project .next-project-container::after {
+      content: "\f178";
+      font: normal normal normal 20px/1 FontAwesome; }
 
 @media only screen and (min-width: 40.063em) {
   .hero-wrapper.post {
@@ -484,8 +502,10 @@ img:not(.jpg) {
     .hero-wrapper.post div p {
       width: 85%;
       margin: 0 auto 1rem auto; }
-  .hero-wrapper.post::after {
-    height: 60%; }
+    .hero-wrapper.post::before {
+      height: 60%; }
+    .hero-wrapper.post::after {
+      height: 60%; }
   .project-presentation p {
     width: 85%;
     margin: auto;
@@ -493,10 +513,67 @@ img:not(.jpg) {
     padding: 3rem 0; } }
 
 @media only screen and (min-width: 64em) {
+  .hero-wrapper.post div p {
+    width: 100%;
+    max-width: 800px; }
+  .project-presentation img {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.13); }
+  .project-presentation picture:nth-child(even) {
+    padding: 0 0 0 2.5rem; }
   .project-presentation p {
-    padding: 0 1.25rem; }
+    padding: 0 0 0 2.5rem; }
   .next-project {
-    display: none; } }
+    display: none; }
+  .design-showcase.flex100 {
+    flex: 0 0 100%;
+    max-width: 100%; } }
+
+.hero-wrapper.post.masterpiece::before {
+  background: url("../images/masterpiece-hero-mobile.jpg") center center/cover; }
+
+.hero-wrapper.post.island-birds::before {
+  background: url("../images/island-birds-hero-mobile.jpg") center center/cover; }
+
+.hero-wrapper.post.falk::before {
+  background: url("../images/falk-hero-mobile.jpg") center center/cover; }
+
+.hero-wrapper.post.seleste::before {
+  background: url("../images/seleste-hero-mobile.jpg") center center/cover; }
+
+.hero-wrapper.post.gdservice::before {
+  background: url("../images/gdservice-hero-mobile.jpg") center center/cover; }
+
+.hero-wrapper.post.intoria::before {
+  background: url("../images/intoria-hero-mobile.jpg") center center/cover; }
+
+.hero-wrapper.post.feskarn::before {
+  background: url("../images/feskarn-hero-mobile.jpg") center center/cover; }
+
+.hero-wrapper.post.traverser::before {
+  background: url("../images/traverser-hero-mobile.jpg") center center/cover; }
+
+.hero-wrapper.post.gotime::before {
+  background: url("../images/gotime-hero-mobile.jpg") center center/cover; }
+
+@media only screen and (min-width: 40.063em) {
+  .hero-wrapper.post.masterpiece::before {
+    background: url("../images/masterpiece-hero.jpg") center center/cover; }
+  .hero-wrapper.post.island-birds::before {
+    background: url("../images/island-birds-hero.jpg") center center/cover; }
+  .hero-wrapper.post.falk::before {
+    background: url("../images/falk-hero.jpg") center center/cover; }
+  .hero-wrapper.post.seleste::before {
+    background: url("../images/seleste-hero.jpg") center center/cover; }
+  .hero-wrapper.post.gdservice::before {
+    background: url("../images/gdservice-hero.jpg") center center/cover; }
+  .hero-wrapper.post.intoria::before {
+    background: url("../images/intoria-hero.jpg") center center/cover; }
+  .hero-wrapper.post.feskarn::before {
+    background: url("../images/feskarn-hero.jpg") center center/cover; }
+  .hero-wrapper.post.traverser::before {
+    background: url("../images/traverser-hero.jpg") center center/cover; }
+  .hero-wrapper.post.gotime::before {
+    background: url("../images/gotime-hero.jpg") center center/cover; } }
 
 .animated {
   -webkit-animation-duration: 2s;

@@ -2,9 +2,9 @@
    
 ?>
     <section>
-        <header class="hero-wrapper post gotime">
+        <header class="hero-wrapper post gdservice">
             <div>
-                <h1>Gotime AB</h1>
+                <h1>GDservice</h1>
                 <p>The projects goal was to increase Gotimes credibility by designing a visual identity following logotype and web design trends in 2013.</p>
                 <a href="http://www.gotime.se">view website</a>
             </div>

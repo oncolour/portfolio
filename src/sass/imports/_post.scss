@@ -9,7 +9,7 @@
         text-align: center;
         padding: $mobile-row-padding;
         h1 {
-            font-family: $gidole;
+            font-family: $open-sans;
             font-size: 3.5rem;
         }
         p {
@@ -20,10 +20,25 @@
             font-size: 1.7rem;
             color: rgba(250, 250, 250, 0.8);
             font-weight: 400;
-            font-family: gidole;
+            font-family: $open-sans;
             text-transform: capitalize;
+            line-height: 1.2;
         }
-        a::after {
+        a.inactive {
+            text-decoration: line-through;
+            cursor: default;
+            &::after {
+                content: "Not available...";
+                display: block;
+                font-size: 12px;
+                position: absolute;
+                width: 100%;
+                left: 0;
+                right: 0;
+                bottom: -15px;
+            }
+        }
+        a.active::after {
             position: absolute;
             top: 100%;
             left: 0;
@@ -39,27 +54,31 @@
             -moz-transform: translateY(10px);
             transform: translateY(10px);
         }
-        a:hover::after,
-        a:focus::after {
+        a.active:hover::after,
+        a.active:focus::after {
             opacity: 1;
             -webkit-transform: translateY(0px);
             -moz-transform: translateY(0px);
             transform: translateY(0px);
         }
     }
-}
-
-.hero-wrapper.post::after {
-    content: "";
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.hero-wrapper.post.gotime {
-    background: url('../images/gotime-hero-mobile.jpg') center center / cover;
+    &::before {
+        content: " ";
+        position: absolute;
+        overflow: hidden;
+        -webkit-filter: blur(5px);
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+    &::after {
+        content: "";
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .project-container {
@@ -79,13 +98,13 @@
         color: rgba(50, 50, 50, 0.8);
     }
 }
+
 .project-container {
     padding-bottom: 3em;
 }
 
 .project-presentation {
     picture,
-    img,
     p {
         margin-bottom: 1.25rem;
     }
@@ -103,7 +122,17 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    &::after {
+        content: "";
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
     .next-project-container {
+        position: relative;
+        z-index: 1000;
         padding: $mobile-row-padding;
         text-align: center;
         color: $white-color;
@@ -115,10 +144,10 @@
             top: 0;
             left: 0;
         }
-    }
-    .next-project-container::after {
-        content: "\f178";
-        font: normal normal normal 20px/1 FontAwesome;
+        &::after {
+            content: "\f178";
+            font: normal normal normal 20px/1 FontAwesome;
+        }
     }
 }
 
@@ -131,9 +160,12 @@
                 margin: 0 auto 1rem auto;
             }
         }
-    }
-    .hero-wrapper.post::after {
-        height: 60%;
+        &::before {
+            height: 60%;
+        }
+        &::after {
+            height: 60%;
+        }
     }
     .project-presentation {
         p {
@@ -146,13 +178,98 @@
 }
 
 @media only screen and (min-width: 64em) {
+    .hero-wrapper.post {
+        div {
+            p {
+                width: 100%;
+                max-width: 800px;
+            }
+        }
+    }
     .project-presentation {
-        
+        img {
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.13);
+        }
+        picture {
+            &:nth-child(even) {
+                padding: 0 0 0 2.5rem;
+            }
+        }
         p {
-            padding: 0 1.25rem;
+            padding: 0 0 0 2.5rem;
         }
     }
     .next-project {
         display: none;
+    }
+    .design-showcase {
+        &.flex100 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+//Mobile
+.hero-wrapper.post {
+    // Hero images
+    &.masterpiece::before {
+        background: url('../images/masterpiece-hero-mobile.jpg') center center / cover;
+    }
+    &.island-birds::before {
+        background: url('../images/island-birds-hero-mobile.jpg') center center / cover;
+    }
+    &.falk::before {
+        background: url('../images/falk-hero-mobile.jpg') center center / cover;
+    }
+    &.seleste::before {
+        background: url('../images/seleste-hero-mobile.jpg') center center / cover;
+    }
+    &.gdservice::before {
+        background: url('../images/gdservice-hero-mobile.jpg') center center / cover;
+    }
+    &.intoria::before {
+        background: url('../images/intoria-hero-mobile.jpg') center center / cover;
+    }
+    &.feskarn::before {
+        background: url('../images/feskarn-hero-mobile.jpg') center center / cover;
+    }
+    &.traverser::before {
+        background: url('../images/traverser-hero-mobile.jpg') center center / cover;
+    }
+    &.gotime::before {
+        background: url('../images/gotime-hero-mobile.jpg') center center / cover;
+    }
+}
+
+@media only screen and (min-width: 40.063em) {
+    .hero-wrapper.post {
+        &.masterpiece::before {
+            background: url('../images/masterpiece-hero.jpg') center center / cover;
+        }
+        &.island-birds::before {
+            background: url('../images/island-birds-hero.jpg') center center / cover;
+        }
+        &.falk::before {
+            background: url('../images/falk-hero.jpg') center center / cover;
+        }
+        &.seleste::before {
+            background: url('../images/seleste-hero.jpg') center center / cover;
+        }
+        &.gdservice::before {
+            background: url('../images/gdservice-hero.jpg') center center / cover;
+        }
+        &.intoria::before {
+            background: url('../images/intoria-hero.jpg') center center / cover;
+        }
+        &.feskarn::before {
+            background: url('../images/feskarn-hero.jpg') center center / cover;
+        }
+        &.traverser::before {
+            background: url('../images/traverser-hero.jpg') center center / cover;
+        }
+        &.gotime::before {
+            background: url('../images/gotime-hero.jpg') center center / cover;
+        }
     }
 }
