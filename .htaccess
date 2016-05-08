@@ -4,31 +4,9 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^oncolour.se [NC]
 RewriteRule ^(.*)$ http://www.oncolour.se/$1 [L,R=301]
 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 # END URL Rewrite
-
-<IfModule mod_rewrite.c>
-
-Options +FollowSymlinks
-RewriteEngine On
-RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.+)$ /$1.php [L,QSA]
-
-</IfModule>
-
-<IfModule mod_rewrite.c>
-
-Options +FollowSymlinks
-RewriteEngine On
-RewriteBase /projects/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.+)$ /$1.php [L,QSA]
-
-</IfModule>
 
 
 # Enable GZIP
