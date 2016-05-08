@@ -4,11 +4,18 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^oncolour.se [NC]
 RewriteRule ^(.*)$ http://www.oncolour.se/$1 [L,R=301]
 
+# END URL Rewrite
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php [L,QSA]
-# END URL Rewrite
+
+RewriteRule ^(.*)$ index.php/$1
+
+</IfModule>
 
 
 # Enable GZIP
