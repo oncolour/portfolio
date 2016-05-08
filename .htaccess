@@ -13,7 +13,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 RewriteCond %{REQUEST_URI} !(.*)/$
-RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1/ [L,R=301]
+RewriteRule ^(.+[^/])/(.+[^/])$ http://%{HTTP_HOST}/$1/$2/ [R=301,L]
 </IfModule>
 
 # END URL Rewrite
