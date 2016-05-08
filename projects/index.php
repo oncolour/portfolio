@@ -9,3 +9,4 @@ echo $_SERVER['ORIG_PATH_INFO']. "<br>";
 
 ?>
 <?php phpinfo(); ?>
+<?php include(dirname(__FILE__) . "/../includes/page_footer.php");?>

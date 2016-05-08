@@ -57,9 +57,4 @@
             </div>
         </aside>
     </section>
-
-    <?php 
-   $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "oncolour/includes/page_footer.php";
-   include_once($path);
-?>
+<?php include(dirname(__FILE__) . "/../includes/page_footer.php");?>

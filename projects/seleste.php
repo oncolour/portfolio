@@ -1,6 +1,4 @@
-<?php include(dirname(__FILE__) . "/../includes/page_header.php");
-   
-?>
+<?php include(dirname(__FILE__) . "/../includes/page_header.php");?>
     <section>
         <header class="hero-wrapper post seleste">
             <div>
@@ -26,149 +24,142 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="project-presentation">
                 <picture class="design-showcase flex100">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-shop-mobile2x.webp 2x, ../../src/images/seleste-shop-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-shop-desktop.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-shop-mobile2x.jpg 2x, ../../src/images/seleste-shop-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/seleste-shop-desktop.jpg" >
+                    <source media="" srcset="../../src/images/seleste-shop-desktop.jpg">
                     <img src="../../src/images/seleste-shop-desktop.jpg" alt="Seleste Web Shop Design">
-                </picture>   
-                   <picture class="design-showcase flex100">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+                </picture>
+
+                <picture class="design-showcase flex100">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-single-mobile2x.webp 2x, ../../src/images/seleste-single-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-single-desktop.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-single-mobile2x.jpg 2x, ../../src/images/seleste-single-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/seleste-single-desktop.jpg" >
+                    <source media="" srcset="../../src/images/seleste-single-desktop.jpg">
                     <img src="../../src/images/seleste-single-desktop.jpg" alt="Seleste Product Page Design">
                 </picture>
-                
+
                 <picture class="design-showcase flex100">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-cart-mobile2x.webp 2x, ../../src/images/seleste-cart-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-cart-desktop.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-cart-mobile2x.jpg 2x, ../../src/images/seleste-cart-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/seleste-cart-desktop.jpg" >
-                    <img src="../../src/images/seleste-cart-desktop.jpg" alt="island-birds Web Design">
+                    <source media="" srcset="../../src/images/seleste-cart-desktop.jpg">
+                    <img src="../../src/images/seleste-cart-desktop.jpg" alt="Seleste Web Shop Cart Design">
                 </picture>
-                
+
                 <picture class="design-showcase flex100">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
-                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-shop-page.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-checkout-desktop.jpg" >
-                    <img src="../../src/images/seleste-checkout-desktop.jpg" alt="island-birds Web Design">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-mobile2x.webp 2x, ../../src/images/seleste-checkout-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-checkout-desktop.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-mobile2x.jpg 2x, ../../src/images/seleste-checkout-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/seleste-checkout-desktop.jpg">
+                    <img src="../../src/images/seleste-checkout-desktop.jpg" alt="Seleste Web Shop Checkout Design">
                 </picture>
-            <picture class="design-showcase flex100">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
-                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-shop-page.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-confirmation-desktop.jpg" >
-                    <img src="../../src/images/seleste-confirmation-desktop.jpg" alt="island-birds Web Design">
-                </picture>
-                
                 <picture class="design-showcase flex100">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
-                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-shop-page.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-blog-desktop.jpg" >
-                    <img src="../../src/images/seleste-blog-desktop.jpg" alt="island-birds Web Design">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-confirmation-mobile2x.webp 2x, ../../src/images/seleste-confirmation-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-confirmation-desktop.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-confirmation-mobile2x.jpg 2x, ../../src/images/seleste-confirmation-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/seleste-confirmation-desktop.jpg">
+                    <img src="../../src/images/seleste-confirmation-desktop.jpg" alt="Seleste Web Shop Confirmation Design">
                 </picture>
-               
+
+                <picture class="design-showcase flex100">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-blog-mobile2x.webp 2x, ../../src/images/seleste-blog-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-blog-desktop.webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-blog-mobile2x.jpg 2x, ../../src/images/seleste-blog-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/seleste-blog-desktop.jpg">
+                    <img src="../../src/images/seleste-blog-desktop.jpg" alt="Seleste Blog Design">
+                </picture>
+
             </div>
             <!-- Mobile images -->
             <div class="project-presentation seleste">
                 <picture class="design-showcase flex25">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-shop-page.webp 2x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-shop-page.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-shop-page.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-shop-page.jpg" >
-                    <img src="../../src/images/seleste-shop-page.jpg" alt="island-birds Web Design">
+                    <source media="" srcset="../../src/images/seleste-shop-page.jpg">
+                    <img src="../../src/images/seleste-shop-page.jpg" alt="Seleste Web Shop Responsive Design">
                 </picture>
-                 <picture class="design-showcase flex25">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+                <picture class="design-showcase flex25">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-singel-product.webp 2x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-singel-product.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-singel-product.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-singel-product.jpg" >
-                    <img src="../../src/images/seleste-singel-product.jpg" alt="island-birds Web Design">
+                    <source media="" srcset="../../src/images/seleste-singel-product.jpg">
+                    <img src="../../src/images/seleste-singel-product.jpg" alt="Seleste Product Page Responsive Design">
                 </picture>
-                 <picture class="design-showcase flex25">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+                <picture class="design-showcase flex25">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-single-product-photos.webp 2x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-single-product-photos.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-single-product-photos.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-single-product-photos.jpg" >
-                    <img src="../../src/images/seleste-single-product-photos.jpg" alt="island-birds Web Design">
+                    <source media="" srcset="../../src/images/seleste-single-product-photos.jpg">
+                    <img src="../../src/images/seleste-single-product-photos.jpg" alt="Seleste Product Page Responsive Design">
                 </picture>
-                 <picture class="design-showcase flex25">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+                <picture class="design-showcase flex25">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-cart.webp 2x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-cart.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-cart.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-cart.jpg" >
-                    <img src="../../src/images/seleste-cart.jpg" alt="island-birds Web Design">
+                    <source media="" srcset="../../src/images/seleste-cart.jpg">
+                    <img src="../../src/images/seleste-cart.jpg" alt="Seleste Web Shop Cart Responsive Design">
                 </picture>
-                
-                  <picture class="design-showcase flex25">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+
+                <picture class="design-showcase flex25">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout.webp 2x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-checkout.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-checkout.jpg" >
-                    <img src="../../src/images/seleste-checkout.jpg" alt="island-birds Web Design">
+                    <source media="" srcset="../../src/images/seleste-checkout.jpg">
+                    <img src="../../src/images/seleste-checkout.jpg" alt="Seleste Web Shop Checkout Responsive Design">
                 </picture>
-                 <picture class="design-showcase flex25">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+                <picture class="design-showcase flex25">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-billing-address.webp 2x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-checkout-billing-address.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-billing-address.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-checkout-billing-address.jpg" >
-                    <img src="../../src/images/seleste-checkout-billing-address.jpg" alt="island-birds Web Design">
+                    <source media="" srcset="../../src/images/seleste-checkout-billing-address.jpg">
+                    <img src="../../src/images/seleste-checkout-billing-address.jpg" alt="Seleste Web Shop Chackout Billing Responsive Design">
                 </picture>
-                 <picture class="design-showcase flex25">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+                <picture class="design-showcase flex25">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-items.webp 2x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-checkout-items.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-items.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-checkout-items.jpg" >
-                    <img src="../../src/images/seleste-checkout-items.jpg" alt="island-birds Web Design">
+                    <source media="" srcset="../../src/images/seleste-checkout-items.jpg">
+                    <img src="../../src/images/seleste-checkout-items.jpg" alt="Seleste Web Shop Checkout Products Responsive Design">
                 </picture>
-                 <picture class="design-showcase flex25">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+                <picture class="design-showcase flex25">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-payment.webp 2x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-checkout-payment.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-payment.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-checkout-payment.jpg" >
-                    <img src="../../src/images/seleste-checkout-payment.jpg" alt="island-birds Web Design">
+                    <source media="" srcset="../../src/images/seleste-checkout-payment.jpg">
+                    <img src="../../src/images/seleste-checkout-payment.jpg" alt="Seleste Web Shop Checkout Payment Responsive Design">
                 </picture>
-               
-               <picture class="design-showcase flex25">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
+
+                <picture class="design-showcase flex25">
+                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-shipping.webp 2x" type="image/webp">
+                    <source media="" srcset="../../src/images/seleste-checkout-shipping.webp" type="image/webp">
+
                     <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-shipping.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-checkout-shipping.jpg" >
-                    <img src="../../src/images/seleste-checkout-shipping.jpg" alt="island-birds Web Design">
+                    <source media="" srcset="../../src/images/seleste-checkout-shipping.jpg">
+                    <img src="../../src/images/seleste-checkout-shipping.jpg" alt="Seleste Web Shop Checkout Shipping Responsive Design">
                 </picture>
-                 <picture class="design-showcase flex25">
-                    <!--<source media="(max-width: 750px)" srcset="../../src/images/island-birds-home-page-mobile-retina2x.webp 2x" type="image/webp">
-                    <source media="" srcset="../../src/images/island-birds-home-page.webp" type="image/webp">
-                    -->
-                    <source media="(max-width: 750px)" srcset="../../src/images/seleste-checkout-payment.jpg 2x">
-                    <source media="" srcset="../../src/images/seleste-checkout-payment.jpg" >
-                    <img src="../../src/images/seleste-checkout-payment.jpg" alt="island-birds Web Design">
-                </picture>
-               
-               
+
+
             </div>
-                
+
         </article>
         <aside class="next-project">
             <div class="next-project-container">
@@ -178,11 +169,5 @@
             </div>
         </aside>
     </section>
-    
-     <?php 
-   $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "oncolour/includes/page_footer.php";
-   include_once($path);
-?>
-    
-    
+
+<?php include(dirname(__FILE__) . "/../includes/page_footer.php");?>
