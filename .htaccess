@@ -3,18 +3,6 @@ Options +MultiViews
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^oncolour.se [NC]
 RewriteRule ^(.*)$ http://www.oncolour.se/$1 [L,R=301]
-
-
-<IfModule mod_rewrite.c>
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^([^/]+)/$ $2.php
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{THE_REQUEST} ^(GET|HEAD)\ /([^/]+)\.php(\?|\ |$)
-RewriteRule ^ /%2/ [L,R=301]
-</IfModule>
-
 # END URL Rewrite
 
 
