@@ -35,14 +35,21 @@
                     $('.header-bar .header-bar-logo').css("color", "#fafafa");
                 }
             });
-        }
+        } 
 
         //Checking if we are on a project page and need to change color at 60% height of hero
         if (theUrl.toLowerCase().indexOf("projects") >= 0 && touchDevice === false) {
             changeHeaderColor(window.innerHeight / 2);
         } else {
-            changeHeaderColor(window.innerHeight);
+            changeHeaderColor(window.innerHeight - 80);
         } 
+        
+        
+        
+         var h = window.innerHeight;
+        console.log(h);
+        console.log(document.body.offsetHeight);
+        
 
        //Scroll on click to Link #ID   
         $('a[href^="#"]').on('click', function (e) {
@@ -113,9 +120,7 @@
 
         });
 
-        var h = window.innerHeight;
-        console.log(h);
-        console.log(document.body.offsetHeight);
+       
 
 
 

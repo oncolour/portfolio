@@ -456,14 +456,16 @@ img:not(.jpg) {
 .project-container {
   padding-bottom: 3em; }
 
-.project-presentation picture,
-.project-presentation p {
-  margin-bottom: 1.25rem; }
-
-.project-presentation p {
-  padding: 0 1.25rem;
-  font-weight: 400;
-  color: rgba(50, 50, 50, 0.94); }
+.project-presentation {
+  width: 90%;
+  margin: auto; }
+  .project-presentation picture img,
+  .project-presentation p {
+    margin-bottom: 1.25rem; }
+  .project-presentation p {
+    padding: 0 1.25rem;
+    font-weight: 400;
+    color: rgba(50, 50, 50, 0.94); }
 
 .next-project {
   position: relative;
@@ -510,23 +512,29 @@ img:not(.jpg) {
     width: 85%;
     margin: auto;
     font-size: 1.125rem;
-    padding: 3rem 0; } }
+    padding: 3rem 0; }
+  .design-showcase.flex25 {
+    flex: 0 0 50%;
+    max-width: 50%; } }
 
 @media only screen and (min-width: 64em) {
   .hero-wrapper.post div p {
     width: 100%;
     max-width: 800px; }
-  .project-presentation img {
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.13); }
-  .project-presentation picture:nth-child(even) {
-    padding: 0 0 0 2.5rem; }
-  .project-presentation p {
-    padding: 0 0 0 2.5rem; }
+  .project-presentation {
+    width: 100%; }
+    .project-presentation img {
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.13); }
+    .project-presentation p {
+      padding: 0 0 0 2.5rem; }
   .next-project {
     display: none; }
   .design-showcase.flex100 {
     flex: 0 0 100%;
-    max-width: 100%; } }
+    max-width: 100%; }
+  .design-showcase.flex25 {
+    flex: 0 0 25%;
+    max-width: 25%; } }
 
 .hero-wrapper.post.masterpiece::before {
   background: url("../images/masterpiece-hero-mobile.jpg") center center/cover; }

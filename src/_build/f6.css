@@ -2349,6 +2349,19 @@ select {
       display: flex;
       flex-flow: row wrap; } }
 
+@media screen and (min-width: 40em) {
+  .project-presentation {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap; }
+    .project-presentation picture, .project-presentation p {
+      flex: 0 0 100%;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+      max-width: 100%; } }
+
 @media screen and (min-width: 64em) {
   .project-presentation {
     max-width: 85%;
@@ -2358,11 +2371,13 @@ select {
     flex-flow: row wrap; }
     .project-presentation picture, .project-presentation p {
       flex: 0 0 50%;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
       max-width: 50%; } }
 
 @media screen and (min-width: 90em) {
   .project-presentation {
-    max-width: 1400px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     display: flex;

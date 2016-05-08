@@ -104,7 +104,9 @@
 }
 
 .project-presentation {
-    picture,
+    width: 90%;
+    margin: auto;
+    picture img,
     p {
         margin-bottom: 1.25rem;
     }
@@ -175,6 +177,13 @@
             padding: 3rem 0;
         }
     }
+    
+    .design-showcase {
+        &.flex25 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
 }
 
 @media only screen and (min-width: 64em) {
@@ -187,14 +196,11 @@
         }
     }
     .project-presentation {
+        width: 100%;
         img {
             box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.13);
         }
-        picture {
-            &:nth-child(even) {
-                padding: 0 0 0 2.5rem;
-            }
-        }
+       
         p {
             padding: 0 0 0 2.5rem;
         }
@@ -207,6 +213,11 @@
             flex: 0 0 100%;
             max-width: 100%;
         }
+         &.flex25 {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+        
     }
 }
 

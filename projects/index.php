@@ -8,3 +8,4 @@ echo $_SERVER['ORIG_PATH_INFO']. "<br>";
 
 
 ?>
+<?php phpinfo(); ?>
