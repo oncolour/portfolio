@@ -1,8 +1,8 @@
 # Rewrite URL forcing wwww
 Options +MultiViews
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^oncolour.se [NC]
-RewriteRule ^(.*)$ http://www.oncolour.se/$1 [L,R=301]
+#RewriteCond %{HTTP_HOST} ^oncolour.se [NC]
+#RewriteRule ^(.*)$ http://www.oncolour.se/$1 [L,R=301]
 
 
 <IfModule mod_rewrite.c>
