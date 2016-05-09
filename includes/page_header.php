@@ -9,15 +9,14 @@
      <meta name="description" content="My Portfolio">
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic' rel='stylesheet' type='text/css'>
+
     
-    <?php define( 'SCRIPT_ROOT', 'http://localhost/oncolour' );?>
-    
-    <link rel="stylesheet" href="<?php echo SCRIPT_ROOT."/"; ?>src/_build/f6.css">
+     <link rel="stylesheet" href="/src/_build/f6.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo SCRIPT_ROOT."/"; ?>src/_build/oncolour.css">
+    <link rel="stylesheet" href="/src/_build/oncolour.css">
     <!-- Scripts -->
-    <script type="text/javascript" src="<?php echo SCRIPT_ROOT."/"; ?>js/vendor/modernizr.min.js"></script>
-    <script type="text/javascript" src="<?php echo SCRIPT_ROOT."/"; ?>js/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/vendor/modernizr.min.js"></script>
+    <script type="text/javascript" src="/js/vendor/jquery.min.js"></script>
 </head>
 
 

@@ -1,5 +1,4 @@
-<?php require 'includes/page_header.php';?>
-
+<?php require 'includes/page_header.php'; ?>
 
     <section class="hero-wrapper">
         
