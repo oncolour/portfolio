@@ -4,10 +4,7 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^oncolour.se [NC]
 RewriteRule ^(.*)$ http://www.oncolour.se/$1 [L,R=301]
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.+)$ $1.php [L,QSA]
+
 # END URL Rewrite
 
 
