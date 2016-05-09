@@ -1,20 +1,14 @@
-
 # Rewrite URL forcing wwww
+Options +MultiViews
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^/]+)/$ $1.php
-RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.php
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
-RewriteRule (.*)$ /$1/ [R=301,L]
-
 RewriteCond %{HTTP_HOST} ^oncolour.se [NC]
 RewriteRule ^(.*)$ http://www.oncolour.se/$1 [L,R=301]
 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
 # END URL Rewrite
-
-
 
 
 # Enable GZIP
