@@ -13,7 +13,7 @@
     <?php define( 'SCRIPT_ROOT', 'http://localhost/oncolour' );?>
     
     <link rel="stylesheet" href="<?php echo SCRIPT_ROOT."/"; ?>src/_build/f6.css">
-    <link rel="stylesheet" href="<?php echo SCRIPT_ROOT."/"; ?>css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo SCRIPT_ROOT."/"; ?>src/_build/oncolour.css">
     <!-- Scripts -->
     <script type="text/javascript" src="<?php echo SCRIPT_ROOT."/"; ?>js/vendor/modernizr.min.js"></script>
