@@ -379,7 +379,8 @@ img:not(.jpg) {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  overflow: hidden; }
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0); }
   .hero-wrapper.post div {
     position: relative;
     z-index: 1;
