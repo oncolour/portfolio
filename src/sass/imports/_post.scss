@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
-    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     div {
         position: relative;
         z-index: 1;
@@ -176,6 +176,7 @@
 @media only screen and (min-width: 40.063em) {
     .hero-wrapper.post {
         height: 60vh;
+        transform: none;
         div {
             p {
                 width: 85%;

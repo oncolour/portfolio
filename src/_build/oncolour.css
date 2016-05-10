@@ -380,7 +380,7 @@ img:not(.jpg) {
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-  -webkit-transform: translate3d(0, 0, 0); }
+  transform: translate3d(0, 0, 0); }
   .hero-wrapper.post div {
     position: relative;
     z-index: 1;
@@ -519,7 +519,8 @@ img:not(.jpg) {
 
 @media only screen and (min-width: 40.063em) {
   .hero-wrapper.post {
-    height: 60vh; }
+    height: 60vh;
+    transform: none; }
     .hero-wrapper.post div p {
       width: 85%;
       margin: 0 auto 1rem auto; }
