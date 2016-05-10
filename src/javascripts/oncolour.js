@@ -30,32 +30,40 @@
             $(window).scroll(function () {
                 if (windowH <= document.body.scrollTop) {
 
-                    $('.header-bar .header-bar-logo').css({"color": "#69bfaf", });
-                    $('.header-bar i').css({"color": "#69bfaf", });
+                    $('.header-bar .header-bar-logo').css({
+                        "color": "#69bfaf",
+                    });
+                    $('.header-bar i').css({
+                        "color": "#69bfaf",
+                    });
                 } else {
-                    $('.header-bar .header-bar-logo').css({"color": "#fafafa", });
-                    $('.header-bar i').css({"color": "#fafafa", });
+                    $('.header-bar .header-bar-logo').css({
+                        "color": "#fafafa",
+                    });
+                    $('.header-bar i').css({
+                        "color": "#fafafa",
+                    });
                 }
             });
-        } 
+        }
 
         //Checking if we are on a project page and need to change color at 60% height of hero
         if (theUrl.toLowerCase().indexOf("projects") >= 0 && touchDevice === false) {
             changeHeaderColor(window.innerHeight / 2);
         } else {
             changeHeaderColor(window.innerHeight - 80);
-        } 
-        
-        
-        
-         var h = window.innerHeight;
+        }
+
+
+
+        var h = window.innerHeight;
         console.log(h);
         console.log(document.body.offsetHeight);
-        
 
-       //Scroll on click to Link #ID   
-        $('a[href^="#"]').on('click', function (e) {
-            e.preventDefault();
+
+        //Scroll on click to Link #ID   
+        $('a.scroll').on('click', function (e) {
+           e.preventDefault();
 
             var target = this.hash,
                 $target = $(target);
@@ -122,7 +130,7 @@
 
         });
 
-       
+
 
 
 
@@ -190,10 +198,11 @@
         if (myUrl.toLowerCase().indexOf(myBackground[numRand].urlString.toLocaleLowerCase()) >= 0) {
             numRand = myBackground.length - numRand;
             $('.next-project').css({
-                "background": "url('" + "../../src/images/" + myBackground[numRand].background + "') center center / cover",
+                "background": "url('" + "../../src/images/" + myBackground[5].background + "') center center / cover",
             });
 
             $('.next-project-title').append(myBackground[5].title);
+            $('.next-project a').attr("href", "/projects/" + myBackground[5].urlString + "/");
 
         } else {
             $('.next-project').css({
@@ -201,8 +210,8 @@
             });
 
             $('.next-project-title').append(myBackground[numRand].title);
+            $('.next-project a').attr("href", "/projects/" + myBackground[numRand].urlString + "/");
         }
-
 
 
 

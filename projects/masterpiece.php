@@ -51,7 +51,7 @@
         </article>
         <aside class="next-project">
             <div class="next-project-container">
-                <a href="#"></a>
+                <a href=""></a>
                 <h4>Next Project</h4>
                 <h5 class="next-project-title"></h5>
             </div>
