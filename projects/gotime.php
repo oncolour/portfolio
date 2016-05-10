@@ -4,8 +4,9 @@
     <section>
         <header class="hero-wrapper post gotime">
             <div>
-                <h1>Gotime AB</h1>
-                <p>The projects goal was to increase Gotimes credibility by designing a visual identity following logotype and web design trends in 2013.</p>
+                <h1>Gotime</h1>
+                <p>A small GPS device generating electronic driver logs of your company car. The projects goal was to increase Gotimes credibility by designing a visual identity following logotype and web design trends in 2013.</p>
+                
                 <a class="active" href="http://www.gotime.se">view website</a>
             </div>
         </header>
@@ -18,7 +19,7 @@
                     </li>
                     <li>
                         <strong>Client</strong>
-                        <span>Gotime / School project</span>
+                        <span>Gotime / Bachelor Thesis</span>
                     </li>
                     <li>
                         <strong>Date</strong>
@@ -27,20 +28,70 @@
                 </ul>
             </div>
             <div class="project-presentation">
-                <picture class="design-showcase">
-                    <source media="" srcset="http://www.oncolour.se/wp-content/uploads/2014/04/gotime-mackbookair.jpg" type="">
-                    <source media="" srcset="" type="">
-                    <img src="" alt="">
+                 <picture class="design-showcase flex100">
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-home-page-mobile2x.webp 2x, ../../src/images/gotime-home-page-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/gotime-home-page.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-home-page-mobile2x.jpg 2x, ../../src/images/traverser-home-page-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/gotime-home-page.jpg">
+                    <img src="../../src/images/gotime-home-page.jpg" alt="Gotime Home Page Web Design">
                 </picture>
-             <p>Together with Markus Hedenborn, we created a new trend strong visual identity for Gotime AB which goal is to enhance the company’s credibility through a modern trend graphic profile. In this project we designed a logotype, package design for their product X-Route, stationery including business card and a brand new website. The website is developed in WordPress (PHP), with a responsive design to fit all different platforms.</p>
                 
             </div>
                 <div class="project-presentation">
-                <picture class="design-showcase">
-                    <source media="" srcset="http://www.oncolour.se/wp-content/uploads/2014/04/gotime-mackbookair.jpg" type="">
-                    <source media="" srcset="" type="">
-                    <img src="" alt="">
+                 <picture class="design-showcase">
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-logo-presentation-mobile2x.webp 2x, ../../src/images/gotime-logo-presentation-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/gotime-logo-presentation.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-logo-presentation-mobile2x.jpg 2x, ../../src/images/gotime-logo-presentation-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/gotime-logo-presentation.jpg">
+                    <img src="../../src/images/gotime-logo-presentation.jpg" alt="Gotime Logo Design">
                 </picture>
+                
+                <picture class="design-showcase">
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-macbook-air-mockup-mobile2x.webp 2x, ../../src/images/gotime-macbook-air-mockup-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/gotime-macbook-air-mockup-desktop1x.webp 1x, ../../src/images/gotime-macbook-air-mockup-desktop2x.webp 2x" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-macbook-air-mockup-mobile2x.jpg 2x, ../../src/images/gotime-macbook-air-mockup-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/gotime-macbook-air-mockup-desktop1x.jpg 1x, ../../src/images/gotime-macbook-air-mockup2x.jpg 2x">
+                    <img src="../../src/images/gotime-macbook-air-mockup-desktop1x.jpg" alt="Gotime Web Design Mockup">
+                </picture>
+                
+               <figure>
+                 <picture class="design-showcase">
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-stockphoto-1-mobile2x.webp 2x, ../../src/images/gotime-stockphoto-1-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/gotime-stockphoto-1.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-stockphoto-1-mobile2x.jpg 2x, ../../src/images/gotime-stockphoto-1-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/gotime-stockphoto-1.jpg">
+                    <img src="../../src/images/gotime-stockphoto-1.jpg" alt="Gotime Graphic Profile Stockphoto">
+                </picture>
+                <figcaption>Stockphoto 1</figcaption>
+                </figure>
+                
+                <figure>
+                <picture class="design-showcase">
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-stockphoto-2-mobile2x.webp 2x, ../../src/images/gotime-stockphoto-2-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/gotime-stockphoto-2.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-stockphoto-2-mobile2x.jpg 2x, ../../src/images/gotime-stockphoto-2-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/gotime-stockphoto-2.jpg">
+                    <img src="../../src/images/gotime-stockphoto-2.jpg" alt="Gotime Graphic Profile Stockphoto">
+                </picture>
+                <figcaption>Stockphoto 2</figcaption>
+                </figure>
+                
+                <figure>
+                <picture class="design-showcase">
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-product-photography2x.webp 2x, ../../src/images/gotime-product-photography3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/gotime-product-photography3x.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-product-photography2x.jpg 2x, ../../src/images/gotime-product-photography3x.jpg 3x">
+                    <source media="" srcset="../../src/images/gotime-product-photography3x.jpg">
+                    <img src="../../src/images/gotime-product-photography3x.jpg" alt="Gotime Product Photography">
+                </picture>
+                   <figcaption>Product Photography</figcaption>
+                    </figure>
             
                
             </div>

@@ -9,6 +9,9 @@
         cursor: pointer;
         transition: all .3s ease-out;
         color: $white-color;
+        font-weight: 600;
+        font-style: italic;
+        letter-spacing: 0.08rem;
         img {
             opacity: 0.8;
             width: 4rem;

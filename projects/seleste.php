@@ -3,8 +3,8 @@
         <header class="hero-wrapper post seleste">
             <div>
                 <h1>Seleste</h1>
-                <p>The projects goal was to increase Gotimes credibility by designing a visual identity following logotype and web design trends in 2013.</p>
-                <a href="http://www.gotime.se">view website</a>
+                <p>A unique mix of Scandinavian modernism and functionality. I worked together with Zibolo to design a modern and user-friendly webshop experience for Seleste. </p>
+                <a class="inactive" href="http://www.gotime.se">view website</a>
             </div>
         </header>
         <article class="project-container">

@@ -42,8 +42,8 @@ RewriteRule ^(.*)$ http://www.oncolour.se/$1 [L,R=301]
 
 # 404 Page
 
-ErrorDocument 404 /oncolour/errors/404.php
-ErrorDocument 403 /oncolour/errors/403.php
+ErrorDocument 404 /errors/404.php
+ErrorDocument 403 /errors/403.php
 
 # Block access to directories
 Options -Indexes

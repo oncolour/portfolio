@@ -6,6 +6,7 @@ body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0.6px;
+  background-color: #fafafa;
   overflow-x: hidden; }
 
 ul {
@@ -30,6 +31,9 @@ h6 {
 p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 1.04rem; }
+
+figure {
+  margin: 0; }
 
 /* Broken Images */
 img {
@@ -74,7 +78,10 @@ img:after {
   z-index: 1000;
   cursor: pointer;
   transition: all .3s ease-out;
-  color: #fafafa; }
+  color: #fafafa;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.08rem; }
   .header-bar .header-bar-logo img {
     opacity: 0.8;
     width: 4rem; }
@@ -172,7 +179,7 @@ img:after {
     padding: 3rem 0; } }
 
 /* Common style */
-figure {
+figure.effect-julia {
   position: relative;
   margin: 0;
   overflow: hidden;
@@ -180,13 +187,13 @@ figure {
   text-align: center;
   cursor: pointer; }
 
-figure img, figure picture {
+figure.effect-julia img, figure.effect-julia picture {
   position: relative;
   display: block;
   min-height: 100%;
   max-width: 100%; }
 
-figure figcaption {
+figure.effect-julia figcaption {
   padding: 0 2em;
   color: #fff;
   text-transform: uppercase;
@@ -194,12 +201,12 @@ figure figcaption {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
-figure figcaption::before,
-figure figcaption::after {
+figure.effect-julia figcaption::before,
+figure.effect-julia figcaption::after {
   pointer-events: none; }
 
-figure figcaption,
-figure figcaption > a {
+figure.effect-julia figcaption,
+figure.effect-julia figcaption > a {
   position: absolute;
   top: 0;
   left: 0;
@@ -208,25 +215,25 @@ figure figcaption > a {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-figure figcaption > a {
+figure.effect-julia figcaption > a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
   font-size: 0;
   opacity: 0; }
 
-figure h2 {
+figure.effect-julia h2 {
   word-spacing: -0.15em;
   font-weight: 300; }
 
-figure h2 span {
+figure.effect-julia h2 span {
   font-weight: 800; }
 
-figure h2,
-figure p {
+figure.effect-julia h2,
+figure.effect-julia p {
   margin: 0; }
 
-figure p {
+figure.effect-julia p {
   letter-spacing: 1px;
   font-size: 68.5%; }
 
@@ -380,7 +387,8 @@ img:not(.jpg) {
     padding: 0 1.25rem; }
     .hero-wrapper.post div h1 {
       font-family: "Open Sans", Helvetica, Arial, sans-serif;
-      font-size: 3.5rem; }
+      font-size: 3.5rem;
+      font-weight: 600; }
     .hero-wrapper.post div p {
       font-size: 1.125rem; }
     .hero-wrapper.post div a {
@@ -460,12 +468,22 @@ img:not(.jpg) {
   width: 90%;
   margin: auto; }
   .project-presentation picture img,
-  .project-presentation p {
+  .project-presentation p, .project-presentation figcaption {
     margin-bottom: 1.25rem; }
   .project-presentation p {
     padding: 0 1.25rem;
     font-weight: 400;
     color: rgba(50, 50, 50, 0.94); }
+  .project-presentation div {
+    margin: auto; }
+    .project-presentation div h3 {
+      font-weight: 600; }
+    .project-presentation div p {
+      padding: 0; }
+  .project-presentation figure {
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5); }
 
 .next-project {
   position: relative;
@@ -508,7 +526,7 @@ img:not(.jpg) {
       height: 60%; }
     .hero-wrapper.post::after {
       height: 60%; }
-  .project-presentation p {
+  .project-presentation > p {
     width: 85%;
     margin: auto;
     font-size: 1.125rem;
@@ -516,6 +534,14 @@ img:not(.jpg) {
   .design-showcase.flex25 {
     flex: 0 0 50%;
     max-width: 50%; } }
+
+@media only screen and (max-width: 63.9em) and (orientation: landscape) {
+  .hero-wrapper.post {
+    height: 100vh; }
+    .hero-wrapper.post::before {
+      height: 100%; }
+    .hero-wrapper.post::after {
+      height: 100%; } }
 
 @media only screen and (min-width: 64em) {
   .hero-wrapper.post div p {

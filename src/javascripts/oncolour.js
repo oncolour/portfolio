@@ -30,9 +30,11 @@
             $(window).scroll(function () {
                 if (windowH <= document.body.scrollTop) {
 
-                    $('.header-bar .header-bar-logo').css("color", "red");
+                    $('.header-bar .header-bar-logo').css({"color": "#69bfaf", });
+                    $('.header-bar i').css({"color": "#69bfaf", });
                 } else {
-                    $('.header-bar .header-bar-logo').css("color", "#fafafa");
+                    $('.header-bar .header-bar-logo').css({"color": "#fafafa", });
+                    $('.header-bar i').css({"color": "#fafafa", });
                 }
             });
         } 

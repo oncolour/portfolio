@@ -5,8 +5,9 @@
         <header class="hero-wrapper post traverser">
             <div>
                 <h1>Traverser</h1>
-                <p>The projects goal was to increase Gotimes credibility by designing a visual identity following logotype and web design trends in 2013.</p>
-                <a href="http://www.gotime.se">view website</a>
+                <p>Join Valerie Bennett on a mission to reveal Raven Corp’s sinister secrets, uncover years of lies and propaganda, and discover the most dangerous thing in all of Brimstone: the truth. I worked with Gatling Goat Studios to create a promotion website for their PC game Traverser.</p>
+             
+                <a class="active" href="http://traverser.gatlinggoatstudios.com" target="_blank">view website</a>
             </div>
         </header>
         <article class="project-container">
@@ -14,36 +15,30 @@
                 <ul class="project-context-info-list">
                     <li>
                         <strong>Role</strong>
-                        <span>Designer, Front- &amp; Back-End Developer</span>
+                        <span>Designer, Front-End Developer</span>
                     </li>
                     <li>
                         <strong>Client</strong>
-                        <span>Gotime / School project</span>
+                        <span>Gatling Goat Studios</span>
                     </li>
                     <li>
                         <strong>Date</strong>
-                        <span>2013</span>
+                        <span>2015</span>
                     </li>
                 </ul>
             </div>
             <div class="project-presentation">
-                <picture class="design-showcase">
-                    <source media="" srcset="http://www.oncolour.se/wp-content/uploads/2014/04/gotime-mackbookair.jpg" type="">
-                    <source media="" srcset="" type="">
-                    <img src="" alt="">
+                 <picture class="design-showcase flex100">
+                    <source media="(max-width: 750px)" srcset="../../src/images/traverser-home-page-mobile2x.webp 2x, ../../src/images/traverser-home-page-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/traverser-home-page.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/traverser-home-page-mobile2x.jpg 2x, ../../src/images/traverser-home-page-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/traverser-home-page.jpg">
+                    <img src="../../src/images/traverser-home-page.jpg" alt="Traverser Game Home Page Web Design">
                 </picture>
-             <p>Together with Markus Hedenborn, we created a new trend strong visual identity for Gotime AB which goal is to enhance the company’s credibility through a modern trend graphic profile. In this project we designed a logotype, package design for their product X-Route, stationery including business card and a brand new website. The website is developed in WordPress (PHP), with a responsive design to fit all different platforms.</p>
                 
             </div>
-                <div class="project-presentation">
-                <picture class="design-showcase">
-                    <source media="" srcset="http://www.oncolour.se/wp-content/uploads/2014/04/gotime-mackbookair.jpg" type="">
-                    <source media="" srcset="" type="">
-                    <img src="" alt="">
-                </picture>
-            
-               
-            </div>
+                
         </article>
         <aside class="next-project">
             <div class="next-project-container">

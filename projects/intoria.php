@@ -4,9 +4,9 @@
     <section>
         <header class="hero-wrapper post intoria">
             <div>
-                <h1>Intoria</h1>
-                <p>The projects goal was to increase Gotimes credibility by designing a visual identity following logotype and web design trends in 2013.</p>
-                <a href="http://www.gotime.se">view website</a>
+                <h1>Intoria Internet Architects</h1>
+                <p>Working together with Intoria we developed a brand new website to reflect the company’s business and technical expertise in Web Design &amp; Online Software Development.</p>
+                <a class="active" href="http://www.intoria.com" target="_blank">view website</a>
             </div>
         </header>
         <article class="project-container">
@@ -14,33 +14,48 @@
                 <ul class="project-context-info-list">
                     <li>
                         <strong>Role</strong>
-                        <span>Designer, Front- &amp; Back-End Developer</span>
+                        <span>Designer, Front-End Developer</span>
                     </li>
                     <li>
                         <strong>Client</strong>
-                        <span>Gotime / School project</span>
+                        <span>Intoria Internet Architects</span>
                     </li>
                     <li>
                         <strong>Date</strong>
-                        <span>2013</span>
+                        <span>2015/2016</span>
                     </li>
                 </ul>
             </div>
             <div class="project-presentation">
-                <picture class="design-showcase">
-                    <source media="" srcset="http://www.oncolour.se/wp-content/uploads/2014/04/gotime-mackbookair.jpg" type="">
-                    <source media="" srcset="" type="">
-                    <img src="" alt="">
-                </picture>
-             <p>Together with Markus Hedenborn, we created a new trend strong visual identity for Gotime AB which goal is to enhance the company’s credibility through a modern trend graphic profile. In this project we designed a logotype, package design for their product X-Route, stationery including business card and a brand new website. The website is developed in WordPress (PHP), with a responsive design to fit all different platforms.</p>
+              <picture class="design-showcase flex100">
+                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-home-page-mobile2x.webp 2x, ../../src/images/intoria-home-page-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/intoria-home-page.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-home-page-mobile2x.jpg 2x, ../../src/images/intoria-home-page-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/intoria-home-page.jpg">
+                    <img src="../../src/images/intoria-home-page.jpg" alt="Intoria Home Page Web Design">
+                </picture> 
+            
                 
             </div>
                 <div class="project-presentation">
                 <picture class="design-showcase">
-                    <source media="" srcset="http://www.oncolour.se/wp-content/uploads/2014/04/gotime-mackbookair.jpg" type="">
-                    <source media="" srcset="" type="">
-                    <img src="" alt="">
+                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-mockup-iphone62x.webp 2x, ../../src/images/intoria-mockup-iphone63x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/intoria-mockup-iphone63x.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-mockup-iphone62x.jpg 2x, ../../src/images/intoria-mockup-iphone63x.jpg 3x">
+                    <source media="" srcset="../../src/images/intoria-mockup-iphone63x.jpg">
+                    <img src="../../src/images/intoria-mockup-iphone63x.jpg" alt="Intoria Menu Design Details">
                 </picture>
+                <picture class="design-showcase">
+                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-menu-mobile2x.webp 2x, ../../src/images/intoria-menu.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/intoria-menu.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-menu-mobile2x.jpg 2x, ../../src/images/intoria-menu.jpg 3x">
+                    <source media="" srcset="../../src/images/intoria-menu.jpg">
+                    <img src="../../src/images/intoria-menu.jpg" alt="Intoria Responsive Web Design Mockup">
+                </picture>
+                
             
                
             </div>

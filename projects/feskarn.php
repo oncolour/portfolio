@@ -5,8 +5,8 @@
         <header class="hero-wrapper post feskarn">
             <div>
                 <h1>Feskarn</h1>
-                <p>The projects goal was to increase Gotimes credibility by designing a visual identity following logotype and web design trends in 2013.</p>
-                <a href="http://www.gotime.se">view website</a>
+                <p>Uppsala's most popular fishmonger, providing locals with fresh fish and shellfish since 1999. I worked together with Zibolo to design Feskarns new online web shop.</p>
+                <a class="active" href="http://www.feskarn.nu" target="_blank">view website</a>
             </div>
         </header>
         <article class="project-container">
@@ -14,36 +14,47 @@
                 <ul class="project-context-info-list">
                     <li>
                         <strong>Role</strong>
-                        <span>Designer, Front- &amp; Back-End Developer</span>
+                        <span>Designer</span>
                     </li>
                     <li>
                         <strong>Client</strong>
-                        <span>Gotime / School project</span>
+                        <span>Zibolo</span>
                     </li>
                     <li>
                         <strong>Date</strong>
-                        <span>2013</span>
+                        <span>March 2015</span>
                     </li>
                 </ul>
             </div>
             <div class="project-presentation">
-                <picture class="design-showcase">
-                    <source media="" srcset="http://www.oncolour.se/wp-content/uploads/2014/04/gotime-mackbookair.jpg" type="">
-                    <source media="" srcset="" type="">
-                    <img src="" alt="">
+                <picture class="design-showcase flex100">
+                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-home-page-mobile2x.webp 2x, ../../src/images/feskarn-home-page-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/feskarn-home-page.webp" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-home-page-mobile2x.jpg 2x, ../../src/images/feskarn-home-page-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/feskarn-home-page.jpg">
+                    <img src="../../src/images/feskarn-home-page.jpg" alt="Feskarn Home Page Web Design">
                 </picture>
-             <p>Together with Markus Hedenborn, we created a new trend strong visual identity for Gotime AB which goal is to enhance the company’s credibility through a modern trend graphic profile. In this project we designed a logotype, package design for their product X-Route, stationery including business card and a brand new website. The website is developed in WordPress (PHP), with a responsive design to fit all different platforms.</p>
                 
-            </div>
-                <div class="project-presentation">
-                <picture class="design-showcase">
-                    <source media="" srcset="http://www.oncolour.se/wp-content/uploads/2014/04/gotime-mackbookair.jpg" type="">
-                    <source media="" srcset="" type="">
-                    <img src="" alt="">
+                <picture class="design-showcase flex100">
+                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-macbook-mobile2x.webp 2x, ../../src/images/feskarn-macbook-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/feskarn-macbook-desktop1x.webp 1x, ../../src/images/feskarn-macbook-desktop2x.webp 2x" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-macbook-mobile2x.jpg 2x, ../../src/images/feskarn-macbook-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/feskarn-macbook-desktop1x.jpg 1x, ../../src/images/feskarn-macbook-desktop2x.jpg 2x">
+                    <img src="../../src/images/feskarn-macbook-desktop1x.jpg" alt="Feskarn Web Design Mockup">
                 </picture>
-            
-               
+                
+                <picture class="design-showcase flex100">
+                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-mockup-mobile2x.webp 2x, ../../src/images/feskarn-mockup-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="../../src/images/feskarn-mockup-desktop1x.webp 1x, ../../src/images/feskarn-mockup-desktop2x.webp 2x" type="image/webp">
+
+                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-mockup-mobile2x.jpg 2x, ../../src/images/feskarn-mockup-mobile3x.jpg 3x">
+                    <source media="" srcset="../../src/images/feskarn-mockup-desktop1x.jpg 1x, ../../src/images/feskarn-mockup-desktop2x.jpg 2x">
+                    <img src="../../src/images/feskarn-mockup-desktop1x.jpg" alt="Feskarn Web Design Mockups">
+                </picture>
             </div>
+                
         </article>
         <aside class="next-project">
             <div class="next-project-container">

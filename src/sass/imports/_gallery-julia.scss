@@ -1,6 +1,6 @@
 /* Common style */
 
-figure {
+figure.effect-julia {
     position: relative;
     margin: 0;
     overflow: hidden;
@@ -9,14 +9,14 @@ figure {
     cursor: pointer;
 }
 
-figure img, figure picture {
+figure.effect-julia img, figure.effect-julia picture {
     position: relative;
     display: block;
     min-height: 100%;
     max-width: 100%;
 }
 
-figure figcaption {
+figure.effect-julia figcaption {
     padding: 0 2em;
     color: #fff;
     text-transform: uppercase;
@@ -25,13 +25,13 @@ figure figcaption {
     backface-visibility: hidden;
 }
 
-figure figcaption::before,
-figure figcaption::after {
+figure.effect-julia figcaption::before,
+figure.effect-julia figcaption::after {
     pointer-events: none;
 }
 
-figure figcaption,
-figure figcaption > a {
+figure.effect-julia figcaption,
+figure.effect-julia figcaption > a {
     position: absolute;
     top: 0;
     left: 0;
@@ -45,7 +45,7 @@ figure figcaption > a {
 
 /* For some effects it will show as a button */
 
-figure figcaption > a {
+figure.effect-julia figcaption > a {
     z-index: 1000;
     text-indent: 200%;
     white-space: nowrap;
@@ -53,21 +53,21 @@ figure figcaption > a {
     opacity: 0;
 }
 
-figure h2 {
+figure.effect-julia h2 {
     word-spacing: -0.15em;
     font-weight: 300;
 }
 
-figure h2 span {
+figure.effect-julia h2 span {
     font-weight: 800;
 }
 
-figure h2,
-figure p {
+figure.effect-julia h2,
+figure.effect-julia p {
     margin: 0;
 }
 
-figure p {
+figure.effect-julia p {
     letter-spacing: 1px;
     font-size: 68.5%;
 }
