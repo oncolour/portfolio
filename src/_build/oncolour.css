@@ -378,7 +378,8 @@ img:not(.jpg) {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  overflow: hidden; }
   .hero-wrapper.post div {
     position: relative;
     z-index: 1;
