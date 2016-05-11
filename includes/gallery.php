@@ -4,7 +4,7 @@
 
 <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="src/images/shot-masterpiece.jpg" alt="img22" />
+                <img src="/../images/shot-masterpiece.jpg" alt="img22" />
                 <figcaption>
                     <div>
                         <h2>Masterpiece Retirement</h2>
@@ -16,7 +16,7 @@
         </li>
            <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="src/images/shot-island-birds.jpg" alt="img22" />
+                <img src="/../images/shot-island-birds.jpg" alt="img22" />
                 <figcaption>
                     <div>
                         <h2>Island Birds</h2>
@@ -28,7 +28,7 @@
         </li>
         <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="src/images/falk-folder.jpg" alt="img22" />
+                <img src="/../images/falk-folder.jpg" alt="img22" />
                 <figcaption>
                     <div>
                         <h2>Falk</h2>
@@ -40,7 +40,7 @@
         </li>
         <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="src/images/seleste-shot.jpg" alt="img22" />
+                <img src="/../images/seleste-shot.jpg" alt="img22" />
                 <figcaption>
                     <div>
                         <h2>Seleste</h2>
@@ -55,7 +55,7 @@
         </li>
 <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="src/images/shot-gdservice.jpg" alt="img22" />
+                <img src="/../images/shot-gdservice.jpg" alt="img22" />
                 <figcaption>
                     <div>
                         <h2>GDservice</h2>
@@ -68,7 +68,7 @@
         </li>
          <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="src/images/intoria-shot.jpg" alt="img22" />
+                <img src="/../images/intoria-shot.jpg" alt="img22" />
                 <figcaption>
                     <div>
                         <h2>Intoria</h2>
@@ -80,7 +80,7 @@
         </li>
         <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="src/images/feskarn-shot.jpg" alt="img22" />
+                <img src="/../images/feskarn-shot.jpg" alt="img22" />
                 <figcaption>
                     <div>
                         <h2>Feskarn</h2>
@@ -93,7 +93,7 @@
         </li>
         <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="src/images/traverser-shot.jpg" alt="img22" />
+                <img src="/../images/traverser-shot.jpg" alt="img22" />
                 <figcaption>
                     <div>
                         <h2>Traverser</h2>
@@ -107,8 +107,8 @@
          <li class="portfolio-gallery-image">
             <figure class="effect-julia">
                 <picture>
-                    <source media="(max-width: 640px)" srcset="src/images/gotime-shot-mobile.jpg" type="">
-                    <img src="src/images/gotime-shot.jpg" alt="img22" />
+                    <source media="(max-width: 640px)" srcset="/../images/gotime-shot-mobile.jpg" type="">
+                    <img src="/../images/gotime-shot.jpg" alt="img22" />
                 </picture>
                 <figcaption>
                     <div>
