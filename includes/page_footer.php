@@ -1,7 +1,7 @@
 <?php require 'footer.php' ?>
 
 <!-- Scripts -->
-<?php if($local = $_SERVER['REMOTE_ADDR'] ? 1 : 0) { ?>
+<?php if($local = $_SERVER['REMOTE_ADDR']=='127.0.0.1' ? 1 : 0) { ?>
 <!-- Development -->
 <script async type="text/javascript" src="/js/vendor/jquery.min.js"></script>
 <script type="text/javascript">

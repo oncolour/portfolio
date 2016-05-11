@@ -29,12 +29,12 @@
             </div>
             <div class="project-presentation">
                  <picture class="design-showcase flex100">
-                    <source media="(max-width: 750px)" srcset="../../src/images/traverser-home-page-mobile2x.webp 2x, ../../src/images/traverser-home-page-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/traverser-home-page.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/traverser-home-page-mobile2x.webp 2x, /../images/traverser-home-page-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/traverser-home-page.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/traverser-home-page-mobile2x.jpg 2x, ../../src/images/traverser-home-page-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/traverser-home-page.jpg">
-                    <img src="../../src/images/traverser-home-page.jpg" alt="Traverser Game Home Page Web Design">
+                    <source media="(max-width: 750px)" srcset="/../images/traverser-home-page-mobile2x.jpg 2x, /../images/traverser-home-page-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/traverser-home-page.jpg">
+                    <img src="/../images/traverser-home-page.jpg" alt="Traverser Game Home Page Web Design">
                 </picture>
                 
             </div>

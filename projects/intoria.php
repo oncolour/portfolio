@@ -28,32 +28,32 @@
             </div>
             <div class="project-presentation">
               <picture class="design-showcase flex100">
-                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-home-page-mobile2x.webp 2x, ../../src/images/intoria-home-page-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/intoria-home-page.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/intoria-home-page-mobile2x.webp 2x, /../images/intoria-home-page-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/intoria-home-page.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-home-page-mobile2x.jpg 2x, ../../src/images/intoria-home-page-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/intoria-home-page.jpg">
-                    <img src="../../src/images/intoria-home-page.jpg" alt="Intoria Home Page Web Design">
+                    <source media="(max-width: 750px)" srcset="/../images/intoria-home-page-mobile2x.jpg 2x, /../images/intoria-home-page-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/intoria-home-page.jpg">
+                    <img src="/../images/intoria-home-page.jpg" alt="Intoria Home Page Web Design">
                 </picture> 
             
                 
             </div>
                 <div class="project-presentation">
                 <picture class="design-showcase">
-                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-mockup-iphone62x.webp 2x, ../../src/images/intoria-mockup-iphone63x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/intoria-mockup-iphone63x.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/intoria-mockup-iphone62x.webp 2x, /../images/intoria-mockup-iphone63x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/intoria-mockup-iphone63x.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-mockup-iphone62x.jpg 2x, ../../src/images/intoria-mockup-iphone63x.jpg 3x">
-                    <source media="" srcset="../../src/images/intoria-mockup-iphone63x.jpg">
-                    <img src="../../src/images/intoria-mockup-iphone63x.jpg" alt="Intoria Menu Design Details">
+                    <source media="(max-width: 750px)" srcset="/../images/intoria-mockup-iphone62x.jpg 2x, /../images/intoria-mockup-iphone63x.jpg 3x">
+                    <source media="" srcset="/../images/intoria-mockup-iphone63x.jpg">
+                    <img src="/../images/intoria-mockup-iphone63x.jpg" alt="Intoria Menu Design Details">
                 </picture>
                 <picture class="design-showcase">
-                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-menu-mobile2x.webp 2x, ../../src/images/intoria-menu.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/intoria-menu.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/intoria-menu-mobile2x.webp 2x, /../images/intoria-menu.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/intoria-menu.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/intoria-menu-mobile2x.jpg 2x, ../../src/images/intoria-menu.jpg 3x">
-                    <source media="" srcset="../../src/images/intoria-menu.jpg">
-                    <img src="../../src/images/intoria-menu.jpg" alt="Intoria Responsive Web Design Mockup">
+                    <source media="(max-width: 750px)" srcset="/../images/intoria-menu-mobile2x.jpg 2x, /../images/intoria-menu.jpg 3x">
+                    <source media="" srcset="/../images/intoria-menu.jpg">
+                    <img src="/../images/intoria-menu.jpg" alt="Intoria Responsive Web Design Mockup">
                 </picture>
                 
             

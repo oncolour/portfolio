@@ -28,30 +28,30 @@
             </div>
             <div class="project-presentation">
                 <picture class="design-showcase flex100">
-                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-home-page-mobile2x.webp 2x, ../../src/images/feskarn-home-page-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/feskarn-home-page.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/feskarn-home-page-mobile2x.webp 2x, /../images/feskarn-home-page-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/feskarn-home-page.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-home-page-mobile2x.jpg 2x, ../../src/images/feskarn-home-page-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/feskarn-home-page.jpg">
-                    <img src="../../src/images/feskarn-home-page.jpg" alt="Feskarn Home Page Web Design">
+                    <source media="(max-width: 750px)" srcset="/../images/feskarn-home-page-mobile2x.jpg 2x, /../images/feskarn-home-page-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/feskarn-home-page.jpg">
+                    <img src="/../images/feskarn-home-page.jpg" alt="Feskarn Home Page Web Design">
                 </picture>
                 
                 <picture class="design-showcase flex100">
-                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-macbook-mobile2x.webp 2x, ../../src/images/feskarn-macbook-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/feskarn-macbook-desktop1x.webp 1x, ../../src/images/feskarn-macbook-desktop2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/feskarn-macbook-mobile2x.webp 2x, /../images/feskarn-macbook-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/feskarn-macbook-desktop1x.webp 1x, /../images/feskarn-macbook-desktop2x.webp 2x" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-macbook-mobile2x.jpg 2x, ../../src/images/feskarn-macbook-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/feskarn-macbook-desktop1x.jpg 1x, ../../src/images/feskarn-macbook-desktop2x.jpg 2x">
-                    <img src="../../src/images/feskarn-macbook-desktop1x.jpg" alt="Feskarn Web Design Mockup">
+                    <source media="(max-width: 750px)" srcset="/../images/feskarn-macbook-mobile2x.jpg 2x, /../images/feskarn-macbook-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/feskarn-macbook-desktop1x.jpg 1x, /../images/feskarn-macbook-desktop2x.jpg 2x">
+                    <img src="/../images/feskarn-macbook-desktop1x.jpg" alt="Feskarn Web Design Mockup">
                 </picture>
                 
                 <picture class="design-showcase flex100">
-                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-mockup-mobile2x.webp 2x, ../../src/images/feskarn-mockup-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/feskarn-mockup-desktop1x.webp 1x, ../../src/images/feskarn-mockup-desktop2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/feskarn-mockup-mobile2x.webp 2x, /../images/feskarn-mockup-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/feskarn-mockup-desktop1x.webp 1x, /../images/feskarn-mockup-desktop2x.webp 2x" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/feskarn-mockup-mobile2x.jpg 2x, ../../src/images/feskarn-mockup-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/feskarn-mockup-desktop1x.jpg 1x, ../../src/images/feskarn-mockup-desktop2x.jpg 2x">
-                    <img src="../../src/images/feskarn-mockup-desktop1x.jpg" alt="Feskarn Web Design Mockups">
+                    <source media="(max-width: 750px)" srcset="/../images/feskarn-mockup-mobile2x.jpg 2x, /../images/feskarn-mockup-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/feskarn-mockup-desktop1x.jpg 1x, /../images/feskarn-mockup-desktop2x.jpg 2x">
+                    <img src="/../images/feskarn-mockup-desktop1x.jpg" alt="Feskarn Web Design Mockups">
                 </picture>
             </div>
                 

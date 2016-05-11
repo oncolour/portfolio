@@ -29,66 +29,66 @@
             </div>
             <div class="project-presentation">
                  <picture class="design-showcase flex100">
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-home-page-mobile2x.webp 2x, ../../src/images/gotime-home-page-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/gotime-home-page.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-home-page-mobile2x.webp 2x, /../images/gotime-home-page-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/gotime-home-page.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-home-page-mobile2x.jpg 2x, ../../src/images/traverser-home-page-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/gotime-home-page.jpg">
-                    <img src="../../src/images/gotime-home-page.jpg" alt="Gotime Home Page Web Design">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-home-page-mobile2x.jpg 2x, /../images/traverser-home-page-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/gotime-home-page.jpg">
+                    <img src="/../images/gotime-home-page.jpg" alt="Gotime Home Page Web Design">
                 </picture>
                 
             </div>
                 <div class="project-presentation">
                  <picture class="design-showcase">
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-logo-presentation-mobile2x.webp 2x, ../../src/images/gotime-logo-presentation-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/gotime-logo-presentation.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-logo-presentation-mobile2x.webp 2x, /../images/gotime-logo-presentation-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/gotime-logo-presentation.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-logo-presentation-mobile2x.jpg 2x, ../../src/images/gotime-logo-presentation-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/gotime-logo-presentation.jpg">
-                    <img src="../../src/images/gotime-logo-presentation.jpg" alt="Gotime Logo Design">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-logo-presentation-mobile2x.jpg 2x, /../images/gotime-logo-presentation-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/gotime-logo-presentation.jpg">
+                    <img src="/../images/gotime-logo-presentation.jpg" alt="Gotime Logo Design">
                 </picture>
                 
                 <picture class="design-showcase">
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-macbook-air-mockup-mobile2x.webp 2x, ../../src/images/gotime-macbook-air-mockup-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/gotime-macbook-air-mockup-desktop1x.webp 1x, ../../src/images/gotime-macbook-air-mockup-desktop2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-macbook-air-mockup-mobile2x.webp 2x, /../images/gotime-macbook-air-mockup-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/gotime-macbook-air-mockup-desktop1x.webp 1x, /../images/gotime-macbook-air-mockup-desktop2x.webp 2x" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-macbook-air-mockup-mobile2x.jpg 2x, ../../src/images/gotime-macbook-air-mockup-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/gotime-macbook-air-mockup-desktop1x.jpg 1x, ../../src/images/gotime-macbook-air-mockup2x.jpg 2x">
-                    <img src="../../src/images/gotime-macbook-air-mockup-desktop1x.jpg" alt="Gotime Web Design Mockup">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-macbook-air-mockup-mobile2x.jpg 2x, /../images/gotime-macbook-air-mockup-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/gotime-macbook-air-mockup-desktop1x.jpg 1x, /../images/gotime-macbook-air-mockup2x.jpg 2x">
+                    <img src="/../images/gotime-macbook-air-mockup-desktop1x.jpg" alt="Gotime Web Design Mockup">
                 </picture>
                 
                <figure>
                  <picture class="design-showcase">
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-stockphoto-1-mobile2x.webp 2x, ../../src/images/gotime-stockphoto-1-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/gotime-stockphoto-1.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-stockphoto-1-mobile2x.webp 2x, /../images/gotime-stockphoto-1-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/gotime-stockphoto-1.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-stockphoto-1-mobile2x.jpg 2x, ../../src/images/gotime-stockphoto-1-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/gotime-stockphoto-1.jpg">
-                    <img src="../../src/images/gotime-stockphoto-1.jpg" alt="Gotime Graphic Profile Stockphoto">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-stockphoto-1-mobile2x.jpg 2x, /../images/gotime-stockphoto-1-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/gotime-stockphoto-1.jpg">
+                    <img src="/../images/gotime-stockphoto-1.jpg" alt="Gotime Graphic Profile Stockphoto">
                 </picture>
                 <figcaption>Stockphoto 1</figcaption>
                 </figure>
                 
                 <figure>
                 <picture class="design-showcase">
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-stockphoto-2-mobile2x.webp 2x, ../../src/images/gotime-stockphoto-2-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/gotime-stockphoto-2.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-stockphoto-2-mobile2x.webp 2x, /../images/gotime-stockphoto-2-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/gotime-stockphoto-2.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-stockphoto-2-mobile2x.jpg 2x, ../../src/images/gotime-stockphoto-2-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/gotime-stockphoto-2.jpg">
-                    <img src="../../src/images/gotime-stockphoto-2.jpg" alt="Gotime Graphic Profile Stockphoto">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-stockphoto-2-mobile2x.jpg 2x, /../images/gotime-stockphoto-2-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/gotime-stockphoto-2.jpg">
+                    <img src="/../images/gotime-stockphoto-2.jpg" alt="Gotime Graphic Profile Stockphoto">
                 </picture>
                 <figcaption>Stockphoto 2</figcaption>
                 </figure>
                 
                 <figure>
                 <picture class="design-showcase">
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-product-photography2x.webp 2x, ../../src/images/gotime-product-photography3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/gotime-product-photography3x.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-product-photography2x.webp 2x, /../images/gotime-product-photography3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/gotime-product-photography3x.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/gotime-product-photography2x.jpg 2x, ../../src/images/gotime-product-photography3x.jpg 3x">
-                    <source media="" srcset="../../src/images/gotime-product-photography3x.jpg">
-                    <img src="../../src/images/gotime-product-photography3x.jpg" alt="Gotime Product Photography">
+                    <source media="(max-width: 750px)" srcset="/../images/gotime-product-photography2x.jpg 2x, /../images/gotime-product-photography3x.jpg 3x">
+                    <source media="" srcset="/../images/gotime-product-photography3x.jpg">
+                    <img src="/../images/gotime-product-photography3x.jpg" alt="Gotime Product Photography">
                 </picture>
                    <figcaption>Product Photography</figcaption>
                     </figure>

@@ -38,7 +38,8 @@
 
 
    <?php // Check REMOTE_ADDR  phpinfo(); ?>  
-    <?php if($local = $_SERVER['REMOTE_ADDR'] ? 1 : 0) { 
+    <?php if($local = $_SERVER['REMOTE_ADDR']=='127.0.0.1' ? 1 : 0) { 
+    
     // Development
     ?>
     

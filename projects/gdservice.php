@@ -28,22 +28,22 @@
             </div>
             <div class="project-presentation">
                 <picture class="design-showcase flex100">
-                    <source media="(max-width: 750px)" srcset="../../src/images/gdservice-home-page-mobile2x.webp 2x, ../../src/images/gdservice-home-page-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/gdservice-home-page.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/gdservice-home-page-mobile2x.webp 2x, /../images/gdservice-home-page-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/gdservice-home-page.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/gdservice-home-page-mobile2x.jpg 2x, ../../src/images/gdservice-home-page-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/gdservice-home-page.jpg">
-                    <img src="../../src/images/gdservice-home-page.jpg" alt="GDservice Home Page Web Design">
+                    <source media="(max-width: 750px)" srcset="/../images/gdservice-home-page-mobile2x.jpg 2x, /../images/gdservice-home-page-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/gdservice-home-page.jpg">
+                    <img src="/../images/gdservice-home-page.jpg" alt="GDservice Home Page Web Design">
                 </picture>            
             </div>
                 <div class="project-presentation">
                 <picture class="design-showcase">
-                    <source media="(max-width: 750px)" srcset="../../src/images/gdservice-pagespeed-insights-mobile2x.webp 2x, ../../src/images/gdservice-pagespeed-insights-mobile3x.webp 3x" type="image/webp">
-                    <source media="" srcset="../../src/images/gdservice-pagespeed-insights.webp" type="image/webp">
+                    <source media="(max-width: 750px)" srcset="/../images/gdservice-pagespeed-insights-mobile2x.webp 2x, /../images/gdservice-pagespeed-insights-mobile3x.webp 3x" type="image/webp">
+                    <source media="" srcset="/../images/gdservice-pagespeed-insights.webp" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="../../src/images/gdservice-pagespeed-insights-mobile2x.jpg 2x, ../../src/images/gdservice-pagespeed-insights-mobile3x.jpg 3x">
-                    <source media="" srcset="../../src/images/gdservice-pagespeed-insights.jpg">
-                    <img src="../../src/images/gdservice-pagespeed-insights.jpg" alt="GDservice PageSpeed Insights - Google Developers">
+                    <source media="(max-width: 750px)" srcset="/../images/gdservice-pagespeed-insights-mobile2x.jpg 2x, /../images/gdservice-pagespeed-insights-mobile3x.jpg 3x">
+                    <source media="" srcset="/../images/gdservice-pagespeed-insights.jpg">
+                    <img src="/../images/gdservice-pagespeed-insights.jpg" alt="GDservice PageSpeed Insights - Google Developers">
                 </picture>  
                 <div>
                 <h3>PageSpeed</h3>
