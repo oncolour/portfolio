@@ -32,9 +32,9 @@ include(dirname(__FILE__) . "/../includes/page_header.php");
             <div class="project-presentation">
                 <picture class="design-showcase flex100">
                     <source media="(max-width: 750px)" srcset="/../images/masterpiece-home-page-mobile-retina2x.webp 2x, /../images/masterpiece-home-page-mobile-retina3x.webp 3x" type="image/webp">
-                    <source media="" srcset="/../images/masterpiece-home-page.webp" type="image/webp">
+                    <source  srcset="/../images/masterpiece-home-page.webp" type="image/webp">
                     <source media="(max-width: 750px)" srcset="/../images/masterpiece-home-page-mobile-retina2x.jpg 2x, /../images/masterpiece-home-page-mobile-retina3x.jpg 3x">
-                    <source media="" srcset="/../images/masterpiece-home-page.jpg" >
+                    <source  srcset="/../images/masterpiece-home-page.jpg" >
                     <img src="/../images/masterpiece-home-page.jpg" alt="Masterpiece Retirement Web Design">
                 </picture>
 
@@ -43,9 +43,9 @@ include(dirname(__FILE__) . "/../includes/page_header.php");
             <div class="project-presentation">
                 <picture class="design-showcase flex100">
                     <source media="(max-width: 750px)" srcset="/../images/masterpiece-styles-mobile-retina2x.webp 2x, /../images/masterpiece-styles-mobile-retina3x.webp 3x" type="image/webp">
-                    <source media="" srcset="/../images/masterpiece-styles.webp" type="image/webp">
+                    <source  srcset="/../images/masterpiece-styles.webp" type="image/webp">
                     <source media="(max-width: 750px)" srcset="/../images/masterpiece-styles-mobile-retina2x.jpg 2x, /../images/masterpiece-styles-mobile-retina3x.jpg 3x">
-                    <source media="" srcset="/../images/masterpiece-styles.jpg" >
+                    <source  srcset="/../images/masterpiece-styles.jpg" >
                     <img src="/../images/masterpiece-styles.jpg" alt="Masterpiece Retirement Style guide">
                 </picture>
 

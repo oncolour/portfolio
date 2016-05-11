@@ -5,7 +5,7 @@
 <li class="portfolio-gallery-image">
             <figure class="effect-julia">
                 <picture>
-                <source media="" srcset="/../images/shot-masterpiece.webp" type="image/webp">
+                <source  srcset="/../images/shot-masterpiece.webp" type="image/webp">
                 <img src="/../images/shot-masterpiece.jpg" alt="Masterpiece Retirement" />
                 </picture>
                 <figcaption>
@@ -20,7 +20,7 @@
            <li class="portfolio-gallery-image">
             <figure class="effect-julia">
                 <picture>
-                <source media="" srcset="/../images/shot-island-birds.webp" type="image/webp">
+                <source  srcset="/../images/shot-island-birds.webp" type="image/webp">
                 <img src="/../images/shot-island-birds.jpg" alt="Island Birds" />
                 </picture>
                 <figcaption>
@@ -35,7 +35,7 @@
         <li class="portfolio-gallery-image">
             <figure class="effect-julia">
                <picture>
-                <source media="" srcset="/../images/falk-folder.webp" type="image/webp">
+                <source  srcset="/../images/falk-folder.webp" type="image/webp">
                 <img src="/../images/falk-folder.jpg" alt="Falk Panaels Canada" />
                 </picture>
                 <figcaption>
@@ -65,7 +65,7 @@
 <li class="portfolio-gallery-image">
             <figure class="effect-julia">
                <picture>
-                <source media="" srcset="/../images/shot-gdservice.webp" type="image/webp">
+                <source  srcset="/../images/shot-gdservice.webp" type="image/webp">
                 <img src="/../images/shot-gdservice.jpg" alt="GDservice" />
                 </picture>
                 <figcaption>
@@ -81,7 +81,7 @@
          <li class="portfolio-gallery-image">
             <figure class="effect-julia">
                <picture>
-                <source media="" srcset="/../images/intoria-shot.webp" type="image/webp">
+                <source  srcset="/../images/intoria-shot.webp" type="image/webp">
                 <img src="/../images/intoria-shot.jpg" alt="Intoria Internet Architects" />
                 </picture>
                 <figcaption>
