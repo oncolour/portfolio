@@ -519,15 +519,14 @@ img:not(.jpg) {
 
 @media only screen and (min-width: 40.063em) {
   .hero-wrapper.post {
-    height: 60vh;
-    transform: none; }
+    height: 60vh; }
     .hero-wrapper.post div p {
       width: 85%;
       margin: 0 auto 1rem auto; }
     .hero-wrapper.post::before {
-      height: 60%; }
+      height: 60vh; }
     .hero-wrapper.post::after {
-      height: 60%; }
+      height: 60vh; }
   .project-presentation > p {
     width: 85%;
     margin: auto;
@@ -539,11 +538,12 @@ img:not(.jpg) {
 
 @media only screen and (max-width: 63.9em) and (orientation: landscape) {
   .hero-wrapper.post {
-    height: 100vh; }
+    height: 100vh;
+    transform: none; }
     .hero-wrapper.post::before {
-      height: 100%; }
+      height: 100vh; }
     .hero-wrapper.post::after {
-      height: 100%; } }
+      height: 100vh; } }
 
 @media only screen and (min-width: 64em) {
   .hero-wrapper.post div p {

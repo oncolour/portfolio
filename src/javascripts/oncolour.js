@@ -50,7 +50,11 @@
         //Checking if we are on a project page and need to change color at 60% height of hero
         if (theUrl.toLowerCase().indexOf("projects") >= 0 && touchDevice === false) {
             changeHeaderColor(window.innerHeight / 2);
-        } else {
+        } else if(touchDevice === true) {
+            changeHeaderColor(window.innerHeight - 25);
+        }
+        
+        else {
             changeHeaderColor(window.innerHeight - 80);
         }
 
@@ -198,11 +202,11 @@
         if (myUrl.toLowerCase().indexOf(myBackground[numRand].urlString.toLocaleLowerCase()) >= 0) {
             numRand = myBackground.length - numRand;
             $('.next-project').css({
-                "background": "url('" + "../../src/images/" + myBackground[5].background + "') center center / cover",
+                "background": "url('" + "../../src/images/" + myBackground[numRand].background + "') center center / cover",
             });
 
             $('.next-project-title').append(myBackground[5].title);
-            $('.next-project a').attr("href", "/projects/" + myBackground[5].urlString + "/");
+            $('.next-project a').attr("href", "/projects/" + myBackground[numRand].urlString + "/");
 
         } else {
             $('.next-project').css({

@@ -176,7 +176,6 @@
 @media only screen and (min-width: 40.063em) {
     .hero-wrapper.post {
         height: 60vh;
-        transform: none;
         div {
             p {
                 width: 85%;
@@ -184,10 +183,10 @@
             }
         }
         &::before {
-            height: 60%;
+            height: 60vh;
         }
         &::after {
-            height: 60%;
+            height: 60vh;
         }
     }
     .project-presentation {
@@ -210,12 +209,12 @@
 @media only screen and (max-width: 63.9em) and (orientation: landscape) {
     .hero-wrapper.post {
         height: 100vh;
-        
+        transform: none;
         &::before {
-            height: 100%;
+            height: 100vh;
         }
         &::after {
-            height: 100%;
+            height: 100vh;
         }
     }
 }
