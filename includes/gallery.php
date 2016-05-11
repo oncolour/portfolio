@@ -34,7 +34,10 @@
         </li>
         <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="/../images/falk-folder.jpg" alt="img22" />
+               <picture>
+                <source media="" srcset="/../images/falk-folder.webp" type="image/webp">
+                <img src="/../images/falk-folder.jpg" alt="Falk Panaels Canada" />
+                </picture>
                 <figcaption>
                     <div>
                         <h2>Falk</h2>
