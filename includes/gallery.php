@@ -122,7 +122,7 @@
          <li class="portfolio-gallery-image">
             <figure class="effect-julia">
                 <picture>
-                    <source media="(max-width: 640px)" srcset="/../images/gotime-shot-mobile.jpg" type="">
+                    <source media="(max-width: 640px)" srcset="/../images/gotime-shot-mobile.jpg">
                     <img src="/../images/gotime-shot.jpg" alt="img22" />
                 </picture>
                 <figcaption>
