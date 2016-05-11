@@ -1,4 +1,7 @@
-<?php include(dirname(__FILE__) . "/../includes/page_header.php");
+<?php 
+$your_meta_title = "Gotime";
+$your_meta_description = "A small GPS device generating electronic driver logs of your company car. The projects goal was to increase Gotimes credibility by designing a visual identity following logotype and web design trends in 2013.";
+include(dirname(__FILE__) . "/../includes/page_header.php");
    
 ?>
     <section>

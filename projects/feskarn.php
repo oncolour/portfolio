@@ -1,4 +1,7 @@
-<?php include(dirname(__FILE__) . "/../includes/page_header.php");
+<?php 
+$your_meta_title = "Feskarn";
+$your_meta_description = "Uppsala's most popular fishmonger, providing locals with fresh fish and shellfish since 1999. I worked together with Zibolo to design Feskarns new online web shop.";
+include(dirname(__FILE__) . "/../includes/page_header.php");
    
 ?>
     <section>

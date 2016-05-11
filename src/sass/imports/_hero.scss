@@ -9,6 +9,9 @@
     position: absolute;
     top: 0;
     z-index: -1;
+    object-position: 50% 100%;
+    object-fit: cover;
+    
 }
 // Hero Large 
 @media only screen and (min-width: 64.063em) {

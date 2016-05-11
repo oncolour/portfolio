@@ -1,9 +1,12 @@
-<?php include(dirname(__FILE__) . "/../includes/page_header.php");?>
+<?php 
+$your_meta_title = "Seleste";
+$your_meta_description = "A unique mix of Scandinavian modernism and functionality. I worked together with Zibolo to design a modern and user-friendly webshop experience for Seleste.";
+include(dirname(__FILE__) . "/../includes/page_header.php");?>
     <section>
         <header class="hero-wrapper post seleste">
             <div>
                 <h1>Seleste</h1>
-                <p>A unique mix of Scandinavian modernism and functionality. I worked together with Zibolo to design a modern and user-friendly webshop experience for Seleste. </p>
+                <p>A unique mix of Scandinavian modernism and functionality. I worked together with Zibolo to design a modern and user-friendly webshop experience for Seleste.</p>
                 <a class="inactive" href="http://www.gotime.se">view website</a>
             </div>
         </header>

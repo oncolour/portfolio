@@ -1,4 +1,7 @@
-<?php include(dirname(__FILE__) . "/../includes/page_header.php");
+<?php 
+$your_meta_title = "Masterpiece Retirement";
+$your_meta_description = "Fresh, timeless and refined retirement living. Providing independent, yet supportive senior living. I worked with Masterpiece Retirement and Intoria to design an elegant and user-friendly web experience.";
+include(dirname(__FILE__) . "/../includes/page_header.php");
    
 ?>
     <section>

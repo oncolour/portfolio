@@ -1,4 +1,7 @@
-<?php include(dirname(__FILE__) . "/../includes/page_header.php");
+<?php 
+$your_meta_title = "GDservice";
+$your_meta_description = "Providing Bus and coach cleaning services, and experienced drivers. Designed and developed a small website focusing on SEO ranking and page speed.";
+include(dirname(__FILE__) . "/../includes/page_header.php");
    
 ?>
     <section>

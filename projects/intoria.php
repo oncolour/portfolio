@@ -1,4 +1,7 @@
-<?php include(dirname(__FILE__) . "/../includes/page_header.php");
+<?php 
+$your_meta_title = "Intoria";
+$your_meta_description = "Working together with Intoria we developed a brand new website to reflect the company’s business and technical expertise in Web Design and Online Software Development.";
+include(dirname(__FILE__) . "/../includes/page_header.php");
    
 ?>
     <section>

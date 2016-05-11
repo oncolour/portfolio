@@ -1,4 +1,7 @@
-<?php include(dirname(__FILE__) . "/../includes/page_header.php");
+<?php 
+$your_meta_title = "Traverser";
+$your_meta_description = "Join Valerie Bennett on a mission to reveal Raven Corp’s sinister secrets, uncover years of lies and propaganda, and discover the most dangerous thing in all of Brimstone: the truth. I worked with Gatling Goat Studios to create a promotion website for their PC game Traverser.";
+include(dirname(__FILE__) . "/../includes/page_header.php");
    
 ?>
     <section>
@@ -6,7 +9,7 @@
             <div>
                 <h1>Traverser</h1>
                 <p>Join Valerie Bennett on a mission to reveal Raven Corp’s sinister secrets, uncover years of lies and propaganda, and discover the most dangerous thing in all of Brimstone: the truth. I worked with Gatling Goat Studios to create a promotion website for their PC game Traverser.</p>
-             
+
                 <a class="active" href="http://traverser.gatlinggoatstudios.com" target="_blank">view website</a>
             </div>
         </header>
@@ -28,7 +31,7 @@
                 </ul>
             </div>
             <div class="project-presentation">
-                 <picture class="design-showcase flex100">
+                <picture class="design-showcase flex100">
                     <source media="(max-width: 750px)" srcset="/../images/traverser-home-page-mobile2x.webp 2x, /../images/traverser-home-page-mobile3x.webp 3x" type="image/webp">
                     <source media="" srcset="/../images/traverser-home-page.webp" type="image/webp">
 
@@ -36,9 +39,9 @@
                     <source media="" srcset="/../images/traverser-home-page.jpg">
                     <img src="/../images/traverser-home-page.jpg" alt="Traverser Game Home Page Web Design">
                 </picture>
-                
+
             </div>
-                
+
         </article>
         <aside class="next-project">
             <div class="next-project-container">
@@ -48,6 +51,5 @@
             </div>
         </aside>
     </section>
-    
-<?php include(dirname(__FILE__) . "/../includes/page_footer.php");?>
-    
+
+    <?php include(dirname(__FILE__) . "/../includes/page_footer.php");?>

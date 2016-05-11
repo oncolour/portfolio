@@ -1,12 +1,14 @@
-<?php include(dirname(__FILE__) . "/../includes/page_header.php");
+<?php 
+$your_meta_title = "Island Birds";
+$your_meta_description = "Unparalleled, private air charter throughout the Caribbean, specializing in flights to the British Virgin Islands. I worked together with Island Birds and Intoria to design a user-friendly web experience with high visual impact.";
+include(dirname(__FILE__) . "/../includes/page_header.php");
    
 ?>
     <section>
         <header class="hero-wrapper post island-birds">
             <div>
                 <h1>Island Birds</h1>
-                <p>Unparalleled, private air charter throughout the Caribbean, specializing in flights to the British Virgin Islands. I worked together with Island Birds and Intoria to design a user-friendly web experience with high visual
-impact.</p>
+                <p>Unparalleled, private air charter throughout the Caribbean, specializing in flights to the British Virgin Islands. I worked together with Island Birds and Intoria to design a user-friendly web experience with high visual impact.</p>
                 <a class="inactive" href="#">view website</a>
             </div>
         </header>
@@ -32,13 +34,13 @@ impact.</p>
                     <source media="(max-width: 750px)" srcset="/../images/island-birds-home-page-mobile-retina2x.webp 2x, /../images/island-birds-home-page-mobile-retina3x.webp 3x" type="image/webp">
                     <source media="" srcset="/../images/island-birds-home-page.webp" type="image/webp">
                     <source media="(max-width: 750px)" srcset="/../images/island-birds-home-page-mobile-retina2x.jpg 2x, /../images/island-birds-home-page-mobile-retina3x.jpg 3x">
-                    <source media="" srcset="/../images/island-birds-home-page.jpg" >
+                    <source media="" srcset="/../images/island-birds-home-page.jpg">
                     <img src="/../images/island-birds-home-page.jpg" alt="island-birds Web Design">
                 </picture>
 
 
             </div>
-                
+
         </article>
         <aside class="next-project">
             <div class="next-project-container">
@@ -48,7 +50,5 @@ impact.</p>
             </div>
         </aside>
     </section>
-    
-<?php include(dirname(__FILE__) . "/../includes/page_footer.php");?>
-    
-    
+
+    <?php include(dirname(__FILE__) . "/../includes/page_footer.php");?>

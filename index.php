@@ -1,12 +1,15 @@
-<?php require 'includes/page_header.php'; ?>
+<?php 
+    $your_meta_title = "Web Deasign and Front-End Development";
+$your_meta_description = "Web Designer and Front-End Developer from Sweden. Working in Calgary, Canada.";
+require 'includes/page_header.php'; ?>
 
     <section class="hero-wrapper">
         
         
         <video id="hero-video" class="animated fadeIn" preload autoplay loop poster="/images/video-preload.jpg">
-           <?php if($local = $_SERVER['REMOTE_ADDR']=='127.0.0.1' ? 1 : 0) { 
-    
-            } else { ?>
+           <?php if($local = $_SERVER['REMOTE_ADDR']=='127.0.0.1' ? 1 : 0) { ?>
+    <source src="/videos/nz.mp4" type="video/mp4"> Sorry, your browser doesn't support HTML5 video.
+            <?php } else { ?>
              <source src="/videos/nz.mp4" type="video/mp4"> Sorry, your browser doesn't support HTML5 video.
 <?php } ?>
         </video>
