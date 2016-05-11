@@ -38,6 +38,11 @@ p {
 figure {
   margin: 0; }
 
+.button {
+  background-color: #009cad; }
+  .button:hover, .button:focus {
+    background-color: #018f9e; }
+
 /* Broken Images */
 img {
   line-height: 2;
@@ -171,7 +176,8 @@ img:after {
     #hero-content p {
       font-size: 2rem; }
     #hero-content [role=button] {
-      margin-top: 1.5rem; } }
+      margin-top: 1.5rem;
+      min-width: 250px; } }
 
 /* Portfolio - Gallery */
 .portfolio-wrapper {
@@ -180,7 +186,7 @@ img:after {
     color: #fafafa;
     font-weight: 700;
     padding: 2rem 0;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center; }
   .portfolio-wrapper ul li {
     padding: 0; }

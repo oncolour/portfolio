@@ -50,6 +50,13 @@ figure {
 
 
 
+.button {
+    background-color: #009cad;
+    &:hover, &:focus {
+        background-color: #018f9e;
+    }
+}
+
 #travel-gallery {
    
 }

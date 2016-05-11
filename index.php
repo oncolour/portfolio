@@ -6,7 +6,7 @@
            <?php if($local = $_SERVER['REMOTE_ADDR']=='127.0.0.1' ? 1 : 0) { 
     
             } else { ?>
-             <source src="src/videos/nz.mp4" type="video/mp4"> Sorry, your browser doesn't support HTML5 video.
+             <source src="/videos/nz.mp4" type="video/mp4"> Sorry, your browser doesn't support HTML5 video.
 <?php } ?>
         </video>
         <div id="hero-content" class="">
@@ -14,7 +14,7 @@
             <div class=" fadeInUp">
                 <h1>Hi, I'm Oscar Nilsson</h1>
                 <p>A Swedish Web designer, currently living in Canada with a great interest in UI/UX design.</p>
-                <a role="button" class="button large scroll" href="#work">Check out my work</a>
+                <a role="button" class="button large scroll" href="#work">View My Work</a>
             </div>
         </div>
         <div class="preloader-nav">

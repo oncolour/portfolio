@@ -36,6 +36,11 @@ p {
 figure {
   margin: 0; }
 
+.button {
+  background-color: #009cad; }
+  .button:hover, .button:focus {
+    background-color: #018f9e; }
+
 /* Broken Images */
 img {
   line-height: 2;
@@ -169,7 +174,8 @@ img:after {
     #hero-content p {
       font-size: 2rem; }
     #hero-content [role=button] {
-      margin-top: 1.5rem; } }
+      margin-top: 1.5rem;
+      min-width: 250px; } }
 
 .animated {
   -webkit-animation-duration: 2s;

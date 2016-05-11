@@ -2,7 +2,7 @@
 <html class="no-js" lang="en" itemscope itemtype="http://schema.org/LocalBusiness" prefix="og: http://ogp.me/ns#">
 
 <head>
-   <title>Oscar Nilsson Portfolio | Web Deasign &amp; Front-End Development - Oncolour</title>
+   <title>Oscar Nilsson Portfolio | Web Deasign and Front-End Development - Oncolour</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <?php require '_above_the_fold_css.php';?>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
