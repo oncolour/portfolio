@@ -4,7 +4,10 @@
 
 <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="/../images/shot-masterpiece.jpg" alt="img22" />
+                <picture>
+                <source media="" srcset="/../images/shot-masterpiece.webp" type="image/webp">
+                <img src="/../images/shot-masterpiece.jpg" alt="Masterpiece Retirement" />
+                </picture>
                 <figcaption>
                     <div>
                         <h2>Masterpiece Retirement</h2>
@@ -16,7 +19,10 @@
         </li>
            <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="/../images/shot-island-birds.jpg" alt="img22" />
+                <picture>
+                <source media="" srcset="/../images/shot-island-birds.webp" type="image/webp">
+                <img src="/../images/shot-island-birds.jpg" alt="Island Birds" />
+                </picture>
                 <figcaption>
                     <div>
                         <h2>Island Birds</h2>
@@ -55,7 +61,10 @@
         </li>
 <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="/../images/shot-gdservice.jpg" alt="img22" />
+               <picture>
+                <source media="" srcset="/../images/shot-gdservice.webp" type="image/webp">
+                <img src="/../images/shot-gdservice.jpg" alt="GDservice" />
+                </picture>
                 <figcaption>
                     <div>
                         <h2>GDservice</h2>
@@ -68,7 +77,10 @@
         </li>
          <li class="portfolio-gallery-image">
             <figure class="effect-julia">
-                <img src="/../images/intoria-shot.jpg" alt="img22" />
+               <picture>
+                <source media="" srcset="/../images/intoria-shot.webp" type="image/webp">
+                <img src="/../images/intoria-shot.jpg" alt="Intoria Internet Architects" />
+                </picture>
                 <figcaption>
                     <div>
                         <h2>Intoria</h2>
