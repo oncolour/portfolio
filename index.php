@@ -2,7 +2,8 @@
 
     <section class="hero-wrapper">
         
-        <video id="hero-video" class="animated fadeIn" preload loop>
+        
+        <video id="hero-video" class="animated fadeIn" preload autoplay loop poster="/images/video-preload.jpg">
            <?php if($local = $_SERVER['REMOTE_ADDR']=='127.0.0.1' ? 1 : 0) { 
     
             } else { ?>
