@@ -4,7 +4,7 @@
 <head>
    <title>Oscar Nilsson | Web Deasign &amp; Front-End Development - Oncolour</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    
+    <?php require '_above_the_fold_css.php';?>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Web Designer and Front-End Developer from Sweden. Working in Calgary, Canada."/> 
@@ -27,8 +27,10 @@
     <link rel="stylesheet" href="/src/_build/oncolour.css">
     -->
     <!-- Scripts -->
+    <!--
     <script type="text/javascript" src="/js/vendor/modernizr.min.js"></script>
     <script type="text/javascript" src="/js/vendor/jquery.min.js"></script>
+    -->
 </head>
 
 

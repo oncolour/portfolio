@@ -1,6 +1,4 @@
-<?php include(dirname(__FILE__) . "/../includes/page_header.php");
-   
-?>
+<?php include(dirname(__FILE__) . "/../includes/page_header.php"); ?>
     <section>
         <header class="hero-wrapper post falk">
             <div>

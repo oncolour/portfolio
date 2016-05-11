@@ -258,62 +258,62 @@
 .hero-wrapper.post {
     // Hero images
     &.masterpiece::before {
-        background: url('../images/masterpiece-hero-mobile.jpg') center center / cover;
+        background: url('/../images/masterpiece-hero-mobile.jpg') center center / cover;
     }
     &.island-birds::before {
-        background: url('../images/island-birds-hero-mobile.jpg') center center / cover;
+        background: url('/../images/island-birds-hero-mobile.jpg') center center / cover;
     }
     &.falk::before {
-        background: url('../images/falk-hero-mobile.jpg') center center / cover;
+        background: url('/../images/falk-hero-mobile.jpg') center center / cover;
     }
     &.seleste::before {
-        background: url('../images/seleste-hero-mobile.jpg') center center / cover;
+        background: url('/../images/seleste-hero-mobile.jpg') center center / cover;
     }
     &.gdservice::before {
-        background: url('../images/gdservice-hero-mobile.jpg') center center / cover;
+        background: url('/../images/gdservice-hero-mobile.jpg') center center / cover;
     }
     &.intoria::before {
-        background: url('../images/intoria-hero-mobile.jpg') center center / cover;
+        background: url('/../images/intoria-hero-mobile.jpg') center center / cover;
     }
     &.feskarn::before {
-        background: url('../images/feskarn-hero-mobile.jpg') center center / cover;
+        background: url('/../images/feskarn-hero-mobile.jpg') center center / cover;
     }
     &.traverser::before {
-        background: url('../images/traverser-hero-mobile.jpg') center center / cover;
+        background: url('/../images/traverser-hero-mobile.jpg') center center / cover;
     }
     &.gotime::before {
-        background: url('../images/gotime-hero-mobile.jpg') center center / cover;
+        background: url('/../images/gotime-hero-mobile.jpg') center center / cover;
     }
 }
 
 @media only screen and (min-width: 40.063em) {
     .hero-wrapper.post {
         &.masterpiece::before {
-            background: url('../images/masterpiece-hero.jpg') center center / cover;
+            background: url('/../images/masterpiece-hero.jpg') center center / cover;
         }
         &.island-birds::before {
-            background: url('../images/island-birds-hero.jpg') center center / cover;
+            background: url('/../images/island-birds-hero.jpg') center center / cover;
         }
         &.falk::before {
-            background: url('../images/falk-hero.jpg') center center / cover;
+            background: url('/../images/falk-hero.jpg') center center / cover;
         }
         &.seleste::before {
-            background: url('../images/seleste-hero.jpg') center center / cover;
+            background: url('/../images/seleste-hero.jpg') center center / cover;
         }
         &.gdservice::before {
-            background: url('../images/gdservice-hero.jpg') center center / cover;
+            background: url('/../images/gdservice-hero.jpg') center center / cover;
         }
         &.intoria::before {
-            background: url('../images/intoria-hero.jpg') center center / cover;
+            background: url('/../images/intoria-hero.jpg') center center / cover;
         }
         &.feskarn::before {
-            background: url('../images/feskarn-hero.jpg') center center / cover;
+            background: url('/../images/feskarn-hero.jpg') center center / cover;
         }
         &.traverser::before {
-            background: url('../images/traverser-hero.jpg') center center / cover;
+            background: url('/../images/traverser-hero.jpg') center center / cover;
         }
         &.gotime::before {
-            background: url('../images/gotime-hero.jpg') center center / cover;
+            background: url('/../images/gotime-hero.jpg') center center / cover;
         }
     }
 }

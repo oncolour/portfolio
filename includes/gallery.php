@@ -120,42 +120,6 @@
                 </figcaption>
             </figure>
         </li>
-        <!-- 
-        <li class="portfolio-gallery-image">
-            <figure class="effect-julia">
-                <img src="src/images/the-national-dinosaur-museum-shot.jpg" alt="img21" />
-                <figcaption>
-
-                    <div>
-                        <h2>TNDM</h2>
-                        <p><span>Designed a new visual identity including</span></p>
-                        <p><span>website, business card and an entry ticket</span></p>
-                        <p><span>for The National Dinosaur Museum</span></p>
-
-                    </div>
-                    <a href="#">View more</a>
-                </figcaption>
-            </figure>
-        </li>
-       
-        
-
-        <li class="portfolio-gallery-image">
-            <figure class="effect-julia">
-                <img src="src/images/sbpr-shot.jpg" alt="img22" />
-                <figcaption>
-                    <div>
-                        <h2>SBPR</h2>
-                        <p><span>Website and logotype concept designs</span></p>
-                    </div>
-                    <a href="#">View more</a>
-                </figcaption>
-            </figure>
-        </li>
-        
-        -->
-        
-        
         
     </ul>
 
