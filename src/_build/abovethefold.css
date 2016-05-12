@@ -272,7 +272,8 @@ img:after {
   animation-duration: 1.2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  animation-delay: 1.5s; }
+  animation-delay: 1.5s;
+  transform: translateX(-150px); }
 
 .preloader-nav::before,
 .preloader-nav::after {
@@ -371,7 +372,6 @@ img:after {
 
 .hero-wrapper.post {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
