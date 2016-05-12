@@ -34,6 +34,8 @@ include(dirname(__FILE__) . "/../includes/page_header.php");?>
                     <source  srcset="/../images/seleste-shop-desktop.webp" type="image/webp">
 
                     <source media="(max-width: 750px)" srcset="/../images/seleste-shop-mobile2x.jpg 2x, /../images/seleste-shop-mobile3x.jpg 3x">
+                    <source media="(max-width: 1010px)" srcset="/../images/seleste-shop-870.jpg">
+                    
                     <source  srcset="/../images/seleste-shop-desktop.jpg">
                     <img src="/../images/seleste-shop-desktop.jpg" alt="Seleste Web Shop Design">
                 </picture>
