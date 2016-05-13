@@ -5,8 +5,8 @@
                     <source media="(max-width: 750px)" srcset="/images/profile-picture-oscar-nilsson2x.webp 2x, /images/profile-picture-oscar-nilsson3x.webp 3x" type="image/webp">
                     <source srcset="/images/profile-picture-oscar-nilsson2x.webp 1x, /images/profile-picture-oscar-nilsson3x.webp 2x" type="image/webp">
 
-                    <source media="(max-width: 750px)" srcset="/images/profile-picture-oscar-nilsson2x.jpg 2x, /images/profile-picture-oscar-nilsson3x.jpg 3x">
-                    <source srcset="/images/profile-picture-oscar-nilsson2x.jpg 1x, /images/profile-picture-oscar-nilsson3x.jpg 2x">
+                    <source media="(max-width: 750px)" srcset="/images/profile-picture-oscar-nilsson.jpg 1x, /images/profile-picture-oscar-nilsson2x.jpg 2x, /images/profile-picture-oscar-nilsson3x.jpg 3x">
+                    <source srcset="/images/profile-picture-oscar-nilsson.jpg 1x, /images/profile-picture-oscar-nilsson2x.jpg 1x, /images/profile-picture-oscar-nilsson3x.jpg 2x">
                     <img src="/images/profile-picture-oscar-nilsson2x.jpg" alt="Oscar Nilsson Profile Picture">
                 </picture>
         
