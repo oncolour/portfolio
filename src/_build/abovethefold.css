@@ -161,6 +161,9 @@ img:after {
   #hero-content [role=button] {
     margin-top: 1.5rem; }
 
+.job {
+  display: none; }
+
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
   #hero-content h1 {
@@ -179,7 +182,40 @@ img:after {
       font-size: 2rem; }
     #hero-content [role=button] {
       margin-top: 1.5rem;
-      min-width: 250px; } }
+      min-width: 250px; }
+  .job {
+    display: block;
+    background-color: rgba(1, 156, 173, 0.8);
+    width: 400px;
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    color: #fff;
+    padding: 1rem 1.15rem; }
+    .job h3 {
+      font-size: 1.4rem;
+      font-style: italic; }
+    .job p {
+      font-size: 1.1rem;
+      margin-bottom: 0; }
+    .job::after {
+      content: " ";
+      width: 10px;
+      height: 10px;
+      display: block;
+      position: absolute;
+      bottom: -15px;
+      right: 50%;
+      transform: translateX(50%);
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 15px solid rgba(1, 156, 173, 0.8); }
+    .job a.hire-me {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 999;
+      margin: -17px 0 0 -18px; } }
 
 .animated {
   -webkit-animation-duration: 2s;
