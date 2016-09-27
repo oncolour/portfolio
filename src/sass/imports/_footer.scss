@@ -14,8 +14,9 @@
 .start-new-project {
     width: 100%;
     display: flex;
-    background: #21292c;
+    flex-direction: column-reverse;
 }
+
 .start-new-project-link {
     background: $bg-color;
     color: $white-color;
@@ -31,22 +32,70 @@
     margin-left: 0.5em;
 }
 
-.start-new-project-link:focus, .start-new-project-link:hover {
-    color: rgba(250,250,250,0.4);
+.start-new-project-link:focus,
+.start-new-project-link:hover {
+    color: rgba(250, 250, 250, 0.4);
+}
+
+ul.social-icons-footer {
+    margin: 0.5rem 0 1.5rem;
+    padding: 0 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    li {
+        display: inline-block;
+        a>i.fa {
+            font-size: 32px;
+            color: rgba(255, 255, 255, 0.65);
+            transition: 0.2s ease;
+            &:hover {
+                transition: 0.2s ease;
+            }
+            &.fa-dribbble:hover {
+                color: #ea4c89;
+            }
+            &.fa-behance:hover {
+                color: #1769ff;
+            }
+            &.fa-twitter:hover {
+                color: #1da1f2;
+            }
+            &.fa-instagram:hover {
+                background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            &.fa-linkedin:hover {
+                color: #0077b5;
+            }
+            &.fa-facebook-official:hover {
+                color: #3b5998;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 64em) {
     .start-new-project {
         flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: baseline;
     }
     .start-new-project-link {
         width: 385px;
     }
-    
     #footer-txt {
         margin-bottom: 0em;
         p {
             margin-bottom: 0;
+        }
+    }
+    ul.social-icons-footer {
+        margin: 0;
+        width: 320px;
+        li>a>i.fa {
+            font-size: 25px;
         }
     }
 }
