@@ -21,16 +21,18 @@ require 'includes/page_header.php'; ?>
                 <a role="button" class="button large scroll" href="#work">View My Work</a>
             </div>
         </div>
-        <div class="job">
-            <a class="hire-me" href="mailto:oscar@oncolour.se"></a>
-            <h3>Available for work!</h3>
-            <p>I'm currently looking for work in Stockholm, Sweden / Calgary, AB Canada</p>
+        <?php 
+        //<div class="job">
+          //  <a class="hire-me" href="mailto:oscar@oncolour.se"></a>
+            //<h3>Available for work!</h3>
+            //<p>I'm currently looking for work in Stockholm, Sweden / Calgary, AB Canada</p>
 
-        </div>
-        <div class="preloader-nav">
-            <span class="preloader-nav-touch small">Swipe up</span>
-            <span class="preloader-nav-notouch">Scroll or use arrow keys</span>
-        </div>
+        //</div>
+        ?>
+            <div class="preloader-nav">
+                <span class="preloader-nav-touch small">Swipe up</span>
+                <span class="preloader-nav-notouch">Scroll or use arrow keys</span>
+            </div>
     </section>
 
     <!-- Include gallery section -->
