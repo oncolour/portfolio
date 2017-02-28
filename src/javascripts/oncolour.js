@@ -43,11 +43,9 @@
         //Checking if we are on a project page and need to change color at 60% height of hero
         if (theUrl.toLowerCase().indexOf("projects") >= 0 && touchDevice === false) {
             changeHeaderColor(window.innerHeight / 2);
-        } else if(touchDevice === true) {
+        } else if (touchDevice === true) {
             changeHeaderColor(window.innerHeight - 25);
-        }
-        
-        else {
+        } else {
             changeHeaderColor(window.innerHeight - 80);
         }
 
@@ -60,7 +58,7 @@
 
         //Scroll on click to Link #ID   
         $('a.scroll').on('click', function (e) {
-           e.preventDefault();
+            e.preventDefault();
 
             var target = this.hash,
                 $target = $(target);
@@ -130,6 +128,10 @@
 
 
 
+        var username = "oscar";
+        var hostname = "oncolour.se";
+        var linktext = username + "&#64;" + hostname;
+        $("<a class=\"start-new-project-link\" href='" + "mail" + "to:" + username + "&#64;" + hostname + "'>Start a Project</a>").prependTo(".start-new-project");
 
 
 
