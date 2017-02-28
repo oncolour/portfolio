@@ -17,7 +17,7 @@
         <p>I’m always looking for new friends and challenges!</p>
     </div>
     <div class="start-new-project">
-        <a class="start-new-project-link" href="mailto:oscar@oncolour.se">Start a Project</a>
+        <!-- <a class="start-new-project-link" href="">Start a Project</a>-->
         <ul class="social-icons-footer">
             <li>
                 <a target="_blank" href="https://dribbble.com/stoggy"><i class="fa fa-dribbble" aria-hidden="true"></i></a>

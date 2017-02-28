@@ -10,7 +10,7 @@ require 'includes/page_header.php'; ?>
             <?php if($local = $_SERVER['REMOTE_ADDR']=='127.0.0.1' ? 1 : 0) { ?>
                 <source src="/videos/vfo.mp4" type="video/mp4"> Sorry, your browser doesn't support HTML5 video.
                 <?php } else { ?>
-                    <source src="/videos/nz.mp4" type="video/mp4"> Sorry, your browser doesn't support HTML5 video.
+                    <source src="/videos/vfo.mp4" type="video/mp4"> Sorry, your browser doesn't support HTML5 video.
                     <?php } ?>
         </video>
         <div id="hero-content" class="">
