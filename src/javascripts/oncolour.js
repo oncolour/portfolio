@@ -126,15 +126,6 @@
         });
 
 
-
-
-        var username = "oscar";
-        var hostname = "oncolour.se";
-        var linktext = username + "&#64;" + hostname;
-        $("<a class=\"start-new-project-link\" href='" + "mail" + "to:" + username + "&#64;" + hostname + "'>Start a Project</a>").prependTo(".start-new-project");
-
-
-
         // Next Project Array Object
         var myBackground = [
             {
